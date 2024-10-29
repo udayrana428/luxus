@@ -1,0 +1,895 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Delius&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/font-awesome.css" />
+    <link rel="stylesheet" href="css/bootstrap.css" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="icon" href="images/favicon.png" />
+
+    <!-- Slick Slider -->
+    <link rel="stylesheet" type="text/css" href="slick/slick.css" />
+    <link rel="stylesheet" type="text/css" href="slick/slick-theme.css" />
+
+    <!-- Aos Animation -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+    <title>Contact Us - Luxus</title>
+  </head>
+  <body>
+    <!-- Back to Top button -->
+    <div class="backToTop position-fixed">
+      <i class="fa-solid fa-chevron-up bg-primary text-white rounded-1 bottom-0 end-0"></i>
+    </div>
+
+    <!-- Navbar -->
+    <nav
+      class="navbar navbar-expand-lg shadow-sm w-100 position-absolute bg-white"
+    >
+      <div class="container-fluid mx-2">
+        <a class="navbar-brand" href="index.html">
+          <img src="./images/Luxus-logo.webp" class="navbar-logo" alt="" />
+        </a>
+        <div
+          class="collapse navbar-collapse justify-content-center"
+          id="navbarSupportedContent"
+        >
+          <ul class="navbar-nav mb-2 mb-lg-0 fw-bold">
+            <li class="nav-item dropdown active">
+              <a
+                class="nav-link"
+                href="index.html"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Home
+                <i
+                  class="fa-solid fa-chevron-down ms-2"
+                  style="font-size: 12px"
+                ></i>
+              </a>
+              <ul class="dropdown-menu border-0 px-3">
+                <li>
+                  <a class="dropdown-item py-2" href="index.html">Home - Default</a>
+                </li>
+                <li>
+                  <a class="dropdown-item py-2" href="#">Home - Slider</a>
+                </li>
+                <li>
+                  <a class="dropdown-item py-2" href="#">Home - Agency</a>
+                </li>
+                <li><a class="dropdown-item py-2" href="#">Home - Agent</a></li>
+                <li>
+                  <a class="dropdown-item py-2" href="#">Home - Full Map</a>
+                </li>
+                <li><a class="dropdown-item py-2" href="#">Home - Half</a></li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Listings
+                <i
+                  class="fa-solid fa-chevron-down ms-2"
+                  style="font-size: 12px"
+                ></i>
+              </a>
+              <ul class="dropdown-menu border-0 px-3">
+                <li>
+                  <a class="dropdown-item py-2" href="properties.html">Properties</a>
+                </li>
+                <li><a class="dropdown-item py-2" href="#">Agencies</a></li>
+                <li><a class="dropdown-item py-2" href="#">Agents</a></li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link"
+                href="about.html"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                About Us
+                <i
+                  class="fa-solid fa-chevron-down ms-2"
+                  style="font-size: 12px"
+                ></i>
+              </a>
+              <ul class="dropdown-menu border-0 px-3">
+                <li>
+                  <a class="dropdown-item py-2" href="about.html">About Us 1</a>
+                </li>
+                <li><a class="dropdown-item py-2" href="#">About Us 2</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a href="blog.html" class="nav-link"> Blog </a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Elements
+                <i
+                  class="fa-solid fa-chevron-down ms-2"
+                  style="font-size: 12px"
+                ></i>
+              </a>
+              <ul class="dropdown-menu border-0 px-3">
+                <li>
+                  <a class="dropdown-item py-2" href="index.html">Property</a>
+                </li>
+                <li>
+                  <a class="dropdown-item py-2" href="#">Agent / Agency</a>
+                </li>
+                <li>
+                  <a class="dropdown-item py-2" href="#">Home - Agency</a>
+                </li>
+                <li><a class="dropdown-item py-2" href="#">Blog</a></li>
+                <li><a class="dropdown-item py-2" href="#">Testimonials</a></li>
+                <li>
+                  <a class="dropdown-item py-2" href="#">Test With Image</a>
+                </li>
+                <li><a class="dropdown-item py-2" href="#">Info Box</a></li>
+                <li>
+                  <a class="dropdown-item py-2" href="#">Pricing Table</a>
+                </li>
+                <li>
+                  <a class="dropdown-item py-2" href="#">Miscellaneous</a>
+                </li>
+                <li><a class="dropdown-item py-2" href="#">Signup</a></li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link"
+                href="contact.html"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Contact Us
+                <i
+                  class="fa-solid fa-chevron-down ms-2"
+                  style="font-size: 12px"
+                ></i>
+              </a>
+              <ul class="dropdown-menu border-0 px-3">
+                <li>
+                  <a class="dropdown-item py-2" href="contact.html"
+                    >Contact Us 1</a
+                  >
+                </li>
+                <li><a class="dropdown-item py-2" href="#">Contact Us 2</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+        <div class="d-flex align-items-center">
+          <a
+            href="#loginModal"
+            class="text-decoration-none"
+            data-bs-toggle="modal"
+            data-bs-target="#loginModal"
+          >
+            <i class="fas fa-user"></i>
+            Login
+          </a>
+          <!-- Modal -->
+          <div
+            class="modal fade"
+            id="loginModal"
+            tabindex="-1"
+            aria-labelledby="exampleModalLabel"
+            aria-hidden="true"
+          >
+            <div
+              class="modal-dialog modal-dialog-centered"
+            >
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h1 class="modal-title fs-5 fw-bolder" id="exampleModalLabel">
+                    User Login
+                  </h1>
+                  <button
+                    type="button"
+                    class="btn-close"
+                    data-bs-dismiss="modal"
+                    aria-label="Close"
+                  ></button>
+                </div>
+                <div class="modal-body">
+                  <form>
+                    <div class="mb-3">
+                      <input
+                        type="text"
+                        class="form-control rounded-1 border"
+                        placeholder="Username*"
+                        id="username"
+                        aria-describedby="username"
+                      />
+                    </div>
+                    <div class="mb-3">
+                      <input
+                        type="password"
+                        placeholder="Password*"
+                        class="form-control rounded-1 border  "
+                        id="password"
+                      />
+                    </div>
+                    <button
+                      type="submit"
+                      class="btn btn-primary w-100 text-white mb-3"
+                    >
+                      Login
+                    </button>
+                    <a href="#" class="text-primary text-decoration-none"
+                      >Lost your password?</a
+                    >
+                  </form>
+                </div>
+                <div class="modal-footer justify-content-start">
+                  Don't have an account?
+                  <a href="#" class="text-primary">Sign Up</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <a class="btn btn-primary text-white ms-3 d-none d-sm-block"
+            >Add Property</a
+          >
+          <button
+            class="navbar-toggle bg-transparent float-end border-0 d-lg-none"
+            type="button"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <i class="fa-solid fa-bars text-white fs-2"></i>
+          </button>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Side Navbar -->
+    <aside
+      class="side-navbar position-absolute top-0 left-0 text-white opacity-0 vh-100"
+    >
+      <div>
+        <ul
+          class="menu list-unstyled list-group list-group-flush"
+          id="sidebarAccordion"
+        >
+          <!-- Close Button -->
+          <a href="#" class="d-block menu-item px-3 py-4">
+            <i
+              class="close-btn-sidenav fa-solid fa-xmark text-white fs-2 float-end"
+            ></i>
+          </a>
+
+          <!-- Accordion Item: Home -->
+          <li class="list-group-item menu-item px-0">
+            <a
+              href="#"
+              class="text-white fs-6 fw-bold text-decoration-none d-flex align-items-center justify-content-between py-2 px-3"
+              data-bs-toggle="collapse"
+              data-bs-target="#homeSubmenu"
+              aria-expanded="false"
+              aria-controls="homeSubmenu"
+            >
+              Home
+              <i class="fa-solid fa-plus text-white fs-6 float-end"></i>
+            </a>
+            <ul
+              id="homeSubmenu"
+              class="collapse sub-menu list-unstyled list-group list-group-flush"
+            >
+              <li class="py-2 px-0 sub-menu-item list-group-item">
+                <a
+                  href="index.html"
+                  class="text-white text-decoration-none fs-6 fw-bold px-3"
+                  >Home - Default</a
+                >
+              </li>
+              <li class="py-2 px-0 sub-menu-item list-group-item">
+                <a
+                  href="#"
+                  class="text-white text-decoration-none fs-6 fw-bold px-3"
+                  >Home - Slider</a
+                >
+              </li>
+              <li class="py-2 px-0 sub-menu-item list-group-item">
+                <a
+                  href="#"
+                  class="text-white text-decoration-none fs-6 fw-bold px-3"
+                  >Home - Agency</a
+                >
+              </li>
+              <li class="py-2 px-0 sub-menu-item list-group-item">
+                <a
+                  href="#"
+                  class="text-white text-decoration-none fs-6 fw-bold px-3"
+                  >Home - Agent</a
+                >
+              </li>
+              <li class="py-2 px-0 sub-menu-item list-group-item">
+                <a
+                  href="#"
+                  class="text-white text-decoration-none fs-6 fw-bold px-3"
+                  >Home - Full Map</a
+                >
+              </li>
+              <li class="py-2 px-0 sub-menu-item list-group-item">
+                <a
+                  href="#"
+                  class="text-white text-decoration-none fs-6 fw-bold px-3"
+                  >Home - Half</a
+                >
+              </li>
+            </ul>
+          </li>
+
+          <!-- Accordion Item: Listings -->
+          <li class="list-group-item menu-item px-0">
+            <a
+              href="#"
+              class="text-white fs-6 fw-bold text-decoration-none d-flex align-items-center justify-content-between py-2 px-3"
+              data-bs-toggle="collapse"
+              data-bs-target="#listingsSubmenu"
+              aria-expanded="false"
+              aria-controls="listingsSubmenu"
+            >
+              Listings
+              <i class="fa-solid fa-plus text-white fs-6 float-end"></i>
+            </a>
+            <ul
+              id="listingsSubmenu"
+              class="collapse sub-menu list-unstyled list-group list-group-flush"
+            >
+              <li class="py-2 px-0 sub-menu-item list-group-item">
+                <a
+                  href="properties.html"
+                  class="text-white text-decoration-none fs-6 fw-bold px-3"
+                  >Properties</a
+                >
+              </li>
+              <li class="py-2 px-0 sub-menu-item list-group-item">
+                <a
+                  href="#"
+                  class="text-white text-decoration-none fs-6 fw-bold px-3"
+                  >Agencies</a
+                >
+              </li>
+              <li class="py-2 px-0 sub-menu-item list-group-item">
+                <a
+                  href="#"
+                  class="text-white text-decoration-none fs-6 fw-bold px-3"
+                  >Agent</a
+                >
+              </li>
+              <!-- Add other "Listings" submenu items here -->
+            </ul>
+          </li>
+
+          <!-- Accordion Item: About Us -->
+          <li class="list-group-item menu-item px-0">
+            <a
+              href="#"
+              class="text-white fs-6 fw-bold text-decoration-none d-flex align-items-center justify-content-between py-2 px-3"
+              data-bs-toggle="collapse"
+              data-bs-target="#aboutUsSubmenu"
+              aria-expanded="false"
+              aria-controls="aboutUsSubmenu"
+            >
+              About Us
+              <i class="fa-solid fa-plus text-white fs-6 float-end"></i>
+            </a>
+            <ul
+              id="aboutUsSubmenu"
+              class="collapse sub-menu list-unstyled list-group list-group-flush"
+            >
+              <li class="py-2 px-0 sub-menu-item list-group-item">
+                <a
+                  href="about.html"
+                  class="text-white text-decoration-none fs-6 fw-bold px-3"
+                  >About Us 1</a
+                >
+              </li>
+              <li class="py-2 px-0 sub-menu-item list-group-item">
+                <a
+                  href="#"
+                  class="text-white text-decoration-none fs-6 fw-bold px-3"
+                  >About Us 2</a
+                >
+              </li>
+            </ul>
+          </li>
+
+          <!-- Accordion Item: Blog -->
+          <li class="list-group-item menu-item px-0">
+            <a
+              href="#"
+              class="text-white fs-6 fw-bold text-decoration-none d-flex align-items-center justify-content-between py-2 px-3"
+              data-bs-toggle="collapse"
+              data-bs-target="#blogSubmenu"
+              aria-expanded="false"
+              aria-controls="blogSubmenu"
+            >
+              Blog
+            </a>
+          </li>
+
+          <!-- Accordion Item: Elements -->
+          <li class="list-group-item menu-item px-0">
+            <a
+              href="#"
+              class="text-white fs-6 fw-bold text-decoration-none d-flex align-items-center justify-content-between py-2 px-3"
+              data-bs-toggle="collapse"
+              data-bs-target="#elementsSubmenu"
+              aria-expanded="false"
+              aria-controls="elementsSubmenu"
+            >
+              Elements
+              <i class="fa-solid fa-plus text-white fs-6 float-end"></i>
+            </a>
+            <ul
+              id="elementsSubmenu"
+              class="collapse sub-menu list-unstyled list-group list-group-flush"
+            >
+              <li class="py-2 px-0 sub-menu-item list-group-item">
+                <a
+                  href="#"
+                  class="text-white text-decoration-none fs-6 fw-bold px-3"
+                  >Property</a
+                >
+              </li>
+              <li class="py-2 px-0 sub-menu-item list-group-item">
+                <a
+                  href="#"
+                  class="text-white text-decoration-none fs-6 fw-bold px-3"
+                  >Agent / Agency</a
+                >
+              </li>
+              <li class="py-2 px-0 sub-menu-item list-group-item">
+                <a
+                  href="#"
+                  class="text-white text-decoration-none fs-6 fw-bold px-3"
+                  >Blog</a
+                >
+              </li>
+              <li class="py-2 px-0 sub-menu-item list-group-item">
+                <a
+                  href="#"
+                  class="text-white text-decoration-none fs-6 fw-bold px-3"
+                  >Testimonials</a
+                >
+              </li>
+              <li class="py-2 px-0 sub-menu-item list-group-item">
+                <a
+                  href="#"
+                  class="text-white text-decoration-none fs-6 fw-bold px-3"
+                  >Text With Image</a
+                >
+              </li>
+              <li class="py-2 px-0 sub-menu-item list-group-item">
+                <a
+                  href="#"
+                  class="text-white text-decoration-none fs-6 fw-bold px-3"
+                  >Info Box</a
+                >
+              </li>
+              <li class="py-2 px-0 sub-menu-item list-group-item">
+                <a
+                  href="#"
+                  class="text-white text-decoration-none fs-6 fw-bold px-3"
+                  >Pricing Table</a
+                >
+              </li>
+              <li class="py-2 px-0 sub-menu-item list-group-item">
+                <a
+                  href="#"
+                  class="text-white text-decoration-none fs-6 fw-bold px-3"
+                  >Miscellaneous</a
+                >
+              </li>
+              <li class="py-2 px-0 sub-menu-item list-group-item">
+                <a
+                  href="#"
+                  class="text-white text-decoration-none fs-6 fw-bold px-3"
+                  >Signup</a
+                >
+              </li>
+            </ul>
+          </li>
+
+          <!-- Accordion Item: Contact Us -->
+          <li class="list-group-item menu-item px-0">
+            <a
+              href="#"
+              class="text-white fs-6 fw-bold text-decoration-none d-flex align-items-center justify-content-between py-2 px-3"
+              data-bs-toggle="collapse"
+              data-bs-target="#contactUsSubmenu"
+              aria-expanded="false"
+              aria-controls="contactUsSubmenu"
+            >
+              Contact Us
+              <i class="fa-solid fa-plus text-white fs-6 float-end"></i>
+            </a>
+            <ul
+              id="contactUsSubmenu"
+              class="collapse sub-menu list-unstyled list-group list-group-flush"
+            >
+              <li class="py-2 px-0 sub-menu-item list-group-item">
+                <a
+                  href="#"
+                  class="text-white text-decoration-none fs-6 fw-bold px-3"
+                  >Contact Us 1</a
+                >
+              </li>
+              <li class="py-2 px-0 sub-menu-item list-group-item">
+                <a
+                  href="#"
+                  class="text-white text-decoration-none fs-6 fw-bold px-3"
+                  >Contact Us 2</a
+                >
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </aside>
+
+    <!-- Contact Us -->
+    <section class="contact py-5 py-lg-6" id="contact">
+      <div class="">
+        <div class="row">
+          <div class="col">
+            <div class="header-container">
+              <h1 class="fw-bold text-center text-white">Contact Us</h1>
+            </div>
+          </div>
+        </div>
+        <div class="row mt-6">
+          <div class="col-10 offset-1 col-lg-6 offset-lg-3 text-center">
+            <h2 class="fs-2 mb-3 fw-bold" style="letter-spacing: 1px">
+              We want to hear form you!
+            </h2>
+            <div class="elementor-icon mb-3">
+              <i
+                class="position-relative fa-solid fa-divide text-primary fs-4"
+              ></i>
+            </div>
+            <p class="fw-light mb-5 text-dark">
+              Viverra tellus in hac habitasse platea dictumst vestibulum rhoncus est. Cum sociis natoque penatibus et. Neque gravida in fermentum et sollicitudin ac orci. Amet consectetur adipiscing elit.
+            </p>
+          </div>
+        </div>
+        <div class="row px-4  ">
+          <div
+            class="col-md-4 d-flex justify-content-center align-items-center"
+          >
+            <div
+              class="card text-center text-lg-start position-relative"
+              style="width: 100%"
+            >
+              <div
+                class="bg-white rounded-3 card-body position-relative z-3 p-4 d-lg-flex  " 
+              >
+                <i
+                  aria-hidden="true"
+                  class="fas fa-envelope-open-text text-primary rounded-circle mb-3 me-lg-4" style="font-size: 3rem;"
+                ></i>
+                <div class="">
+                  <h2 class="fs-5 fw-bold mb-2">Email Address</h2>
+                  <p class="fw-light">
+                    info@yourdoamin@com <br>
+                    hi@yourdomain@com
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="col-md-4 d-flex justify-content-center align-items-center"
+          >
+            <div
+              class="card text-center text-lg-start position-relative"
+              style="width: 100%"
+            >
+              <div
+                class="bg-white rounded-3 card-body position-relative z-3 p-4 d-lg-flex  " 
+              >
+                <i
+                  aria-hidden="true"
+                  class="fas fa-phone-volume text-primary rounded-circle mb-3 me-lg-4" style="font-size: 3rem;"
+                ></i>
+                <div class="">
+                  <h2 class="fs-5 fw-bold mb-2">Email Address</h2>
+                  <p class="fw-light">
+                    +12345678910 <br>
+                    +12345678911
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="col-md-4 d-flex justify-content-center align-items-center"
+          >
+            <div
+              class="card text-center text-lg-start position-relative"
+              style="width: 100%"
+            >
+              <div
+                class="bg-white rounded-3 card-body position-relative z-3 p-4 d-lg-flex  " 
+              >
+                <i
+                  aria-hidden="true"
+                  class="fas fa-map-location text-primary rounded-circle mb-3 me-lg-4" style="font-size: 3rem;"
+                ></i>
+                <div class="">
+                  <h2 class="fs-5 fw-bold mb-2">Email Address</h2>
+                  <p class="fw-light">
+                    148th Street Lincoln RD, <br>
+                    New York, US
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Get In Touch -->
+    <section class="getintouch py-5 py-lg-6" id="getintouch">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-10 offset-1 col-lg-6 offset-lg-3 text-center">
+            <h2 class="fs-2 mb-3 fw-bold" style="letter-spacing: 1px">
+              Get In Touch
+            </h2>
+            <div class="elementor-icon mb-3">
+              <i
+                class="position-relative fa-solid fa-divide text-primary fs-4"
+              ></i>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-10 offset-1">
+            <div class="form-container form-border-light-blue form-placeholder-light p-4 bg-white border border-2 rounded-1">
+              <form action="">
+                <div class="mb-3">
+                  <input type="text" class="form-control form-border-light-blue form-placeholder-light rounded-1 border border-2 " id="fullname" 
+                  placeholder="Full Name"
+                  aria-describedby="nameInfo">
+                  <div id="nameInfo" class="form-text">The field is required.</div>
+                </div>
+                <div class="mb-3">
+                  <input type="text" class="form-control form-border-light-blue form-placeholder-light rounded-1 border border-2 " id="email" 
+                  placeholder="Email Address"
+                  aria-describedby="emailInfo">
+                  <div id="emailInfo" class="form-text">The field is required.</div>
+                </div>
+                <div class="mb-3">
+                  <input type="text" class="form-control form-border-light-blue form-placeholder-light rounded-1 border border-2 " id="mobile" 
+                  placeholder="Mobile Number"
+                  aria-describedby="mobileInfo">
+                  <div id="mobileInfo" class="form-text">The field is required.</div>
+                </div>
+                <div class="mb-3">
+                  <input type="text" class="form-control form-border-light-blue form-placeholder-light rounded-1 border border-2 " id="subject" 
+                  placeholder="Subject"
+                  aria-describedby="subjectInfo">
+                  <div id="subjectInfo" class="form-text">The field is required.</div>
+                </div>
+                <div class="mb-3">
+                  <textarea cols="40" rows="5" maxlength="2000" class="form-control form-border-light-blue form-placeholder-light border border-2 rounded-1" id="description" aria-invalid="false" placeholder="Enter Your Message" name="your-message"></textarea>
+                </div>
+                <div class="mb-3">
+                  <button type="submit" class="btn  border border-2 px-4 primary-outline-btn">Send Message</button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Maps -->
+    <div class="map-location" id="map-location">
+      <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d317893.9737282887!2d-0.11951900000000001!3d51.503186!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x487604b900d26973%3A0x4291f3172409ea92!2slastminute.com%20London%20Eye!5e0!3m2!1sen!2sus!4v1729513184331!5m2!1sen!2sus" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+
+    <!-- Footer  -->
+    <footer class="footer" id="footer">
+      <div class="container-fluid py-5 py-lg-7 px-3 text-white">
+        <div class="row">
+          <div class="col-md-4 col-lg-3">
+            <div class="contact-container">
+              <ul class="list-unstyled">
+                <li class="mb-3">
+                  <a href="/">
+                    <img src="./images/Luxus-logo.webp" alt="" class="" />
+                  </a>
+                </li>
+                <li class="mb-2">
+                  <i class="fa-solid fa-phone text-primary me-2"></i>
+                  <span>+123 456 7890</span>
+                </li>
+                <li class="mb-2">
+                  <i class="fa-solid fa-tty text-primary me-2"></i>
+                  <span>+123 456 7890</span>
+                </li>
+                <li class="">
+                  <i class="fa-regular fa-envelope text-primary me-2"></i>
+                  <span>info@yourdomain.com</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-md-4 col-6 col-lg-3">
+            <div class="contact-container">
+              <ul class="list-unstyled">
+                <li>
+                  <h5 class="fw-bold">Genreral Info</h5>
+                </li>
+                <li class="mb-2">
+                  <a href="#" class="text-decoration-none">
+                    <i class="fa-solid fa-arrow-right text-primary me-2"></i>
+                    <span class="text-white">About Us</span>
+                  </a>
+                </li>
+                <li class="mb-2">
+                  <a href="#" class="text-decoration-none">
+                    <i class="fa-solid fa-arrow-right text-primary me-2"></i>
+                    <span class="text-white">Our Properties</span>
+                  </a>
+                </li>
+                <li class="mb-2">
+                  <a href="#" class="text-decoration-none">
+                    <i class="fa-solid fa-arrow-right text-primary me-2"></i>
+                    <span class="text-white">Our Agencies</span>
+                  </a>
+                </li>
+                <li class="">
+                  <a href="#" class="text-decoration-none">
+                    <i class="fa-solid fa-arrow-right text-primary me-2"></i>
+                    <span class="text-white">Our Agents</span>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-md-4 col-6 col-lg-2">
+            <div class="contact-container">
+              <ul class="list-unstyled">
+                <li>
+                  <h5 class="fw-bold">Quick Links</h5>
+                </li>
+                <li class="mb-2">
+                  <a href="#" class="text-decoration-none">
+                    <i class="fa-solid fa-arrow-right text-primary me-2"></i>
+                    <span class="text-white">Blog / News</span>
+                  </a>
+                </li>
+                <li class="mb-2">
+                  <a href="#" class="text-decoration-none">
+                    <i class="fa-solid fa-arrow-right text-primary me-2"></i>
+                    <span class="text-white">Elements</span>
+                  </a>
+                </li>
+                <li class="mb-2">
+                  <a href="#" class="text-decoration-none">
+                    <i class="fa-solid fa-arrow-right text-primary me-2"></i>
+                    <span class="text-white">Pricing Tables</span>
+                  </a>
+                </li>
+                <li class="">
+                  <a href="#" class="text-decoration-none">
+                    <i class="fa-solid fa-arrow-right text-primary me-2"></i>
+                    <span class="text-white">Contact Us</span>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-lg-4 my-5 my-lg-0">
+            <div class="subscribe-container">
+              <h5 class="fw-bold">Subscribe</h5>
+              <p>
+                To get a free & amazing offers and other cool things stay with
+                us. Please subscribe us.
+              </p>
+              <div class="input-group bg-white rounded-1">
+                <input
+                  type="text"
+                  class="form-control rounded-1 py-2 border-0"
+                  placeholder="Your email address "
+                  aria-label=""
+                  aria-describedby="button-addon1"
+                />
+                <button
+                  class="btn btn-primary m-1 text-white"
+                  type="button"
+                  id="button-addon1"
+                >
+                  Sign Up
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="footer-bottom text-white d-flex align-items-center justify-content-between py-3"
+      >
+        <div class="copyright">
+          <h5 class="fs-6 mb-0">&copy 2024 Luxux. All Rights Reserved</h5>
+        </div>
+        <ul class="socials list-unstyled d-flex align-items-center">
+          <li class="me-2">
+            <a href="#" class="rounded-1">
+              <i class="fas fa-brands fa-facebook-f text-white"></i>
+            </a>
+          </li>
+          <li class="me-2">
+            <a href="#" class="rounded-1">
+              <i class="fas fa-brands fa-instagram text-white"></i>
+            </a>
+          </li>
+          <li class="me-2">
+            <a href="#" class="rounded-1">
+              <i class="fas fa-brands fa-twitter text-white"></i>
+            </a>
+          </li>
+          <li class="me-2">
+            <a href="#" class="rounded-1">
+              <i class="fas fa-brands fa-pinterest text-white"></i>
+            </a>
+          </li>
+          <li class="me-2">
+            <a href="#" class="rounded-1">
+              <i class="fas fa-brands fa-youtube text-white"></i>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </footer>
+
+    <script src="js/replaceme.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script
+      type="text/javascript"
+      src="//code.jquery.com/jquery-1.11.0.min.js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="//code.jquery.com/jquery-migrate-1.2.1.min.js"
+    ></script>
+    <script type="text/javascript" src="slick/slick.min.js"></script>
+    <script src="js/script.js"></script>
+
+    <!-- Aos -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  </body>
+</html>

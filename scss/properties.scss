@@ -1,0 +1,60 @@
+// Header
+.header {
+  background: linear-gradient(
+      to right,
+      rgba(0, 187, 255, 0.9),
+      rgba(72, 12, 168, 0.9)
+    ),
+    url(../images/title-bg-1.webp) center center no-repeat;
+  background-size: cover;
+  padding: 4rem 0;
+}
+
+//   Main Content
+#grid-view:hover,
+#list-view:hover {
+  color: #3e2ad3 !important;
+  font-size: 2rem !important;
+}
+
+.main-content .image-container .image-bottom {
+  background: linear-gradient(0deg, rgb(0 7 45), transparent);
+  // background-color: gray;
+  padding: 1rem;
+}
+
+.main-content .card .image-container .image-top .left span:nth-child(1) {
+  transform: rotate(-45deg) translate(-40px, -40px) !important;
+  width: 150px;
+  background-color: #3e2ad3 !important;
+}
+
+.main-content .card .image-container a .center-button {
+  transform: translate(-50%, -50%) rotate(0deg) !important;
+  transform-origin: center;
+}
+.main-content .card:hover .image-container a .center-button {
+  opacity: 1 !important;
+  transform: translate(-50%, -50%) rotate(90deg) !important;
+  transition: all 0.4s ease-in-out;
+}
+.main-content .card .agent:hover,
+.main-content .card .date:hover {
+  color: var(--bs-primary) !important;
+  transition: color 0.2s ease-in;
+}
+.main-content .card .favourite:hover,
+.main-content .card .compare:hover {
+  color: white !important;
+  background-color: var(--bs-primary) !important;
+  transition: all 0.2s ease-in;
+}
+.main-content .card:hover img {
+  transform: scale(1.2);
+  transition: all 0.3s ease-in-out;
+}
+
+#featured-property .title:hover {
+  color: var(--bs-primary) !important;
+  transition: color 0.3s ease-in;
+}

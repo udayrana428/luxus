@@ -1,0 +1,2955 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Delius&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/font-awesome.css" />
+    <link rel="stylesheet" href="css/bootstrap.css" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="icon" href="images/favicon.png" />
+
+    <!-- Link Swiper's CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+
+    <!-- Aos Animation -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+    <title>Luxus - Real Estate Directory Theme</title>
+  </head>
+  <body>
+    <!-- Back to Top button -->
+    <div class="backToTop position-fixed">
+      <i
+        class="fa-solid fa-chevron-up bg-primary text-white rounded-1 bottom-0 end-0"
+      ></i>
+    </div>
+
+    <!-- Navbar -->
+    <nav
+      class="navbar navbar-expand-lg shadow-sm w-100 position-absolute navbar-dark bg-white bg-opacity-10"
+    >
+      <div class="container-fluid mx-2">
+        <a class="navbar-brand" href="index.html">
+          <img src="./images/Luxus-Light-1.webp" class="navbar-logo" alt="" />
+        </a>
+        <div
+          class="collapse navbar-collapse justify-content-center"
+          id="navbarSupportedContent"
+        >
+          <ul class="navbar-nav mb-2 mb-lg-0 fw-bold">
+            <li class="nav-item dropdown active">
+              <a
+                class="nav-link"
+                href="index.html"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Home
+                <i
+                  class="fa-solid fa-chevron-down ms-2"
+                  style="font-size: 12px"
+                ></i>
+              </a>
+              <ul class="dropdown-menu border-0 mt-1 px-3">
+                <li>
+                  <a class="dropdown-item py-2" href="index.html"
+                    >Home - Default</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item py-2" href="#">Home - Slider</a>
+                </li>
+                <li>
+                  <a class="dropdown-item py-2" href="#">Home - Agency</a>
+                </li>
+                <li><a class="dropdown-item py-2" href="#">Home - Agent</a></li>
+                <li>
+                  <a class="dropdown-item py-2" href="#">Home - Full Map</a>
+                </li>
+                <li><a class="dropdown-item py-2" href="#">Home - Half</a></li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Listings
+                <i
+                  class="fa-solid fa-chevron-down ms-2"
+                  style="font-size: 12px"
+                ></i>
+              </a>
+              <ul class="dropdown-menu border-0 mt-1 px-3">
+                <li>
+                  <a class="dropdown-item py-2" href="properties.html"
+                    >Properties</a
+                  >
+                </li>
+                <li><a class="dropdown-item py-2" href="#">Agencies</a></li>
+                <li><a class="dropdown-item py-2" href="#">Agents</a></li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link"
+                href="about.html"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                About Us
+                <i
+                  class="fa-solid fa-chevron-down ms-2"
+                  style="font-size: 12px"
+                ></i>
+              </a>
+              <ul class="dropdown-menu border-0 mt-1 px-3">
+                <li>
+                  <a class="dropdown-item py-2" href="about.html">About Us 1</a>
+                </li>
+                <li><a class="dropdown-item py-2" href="#">About Us 2</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a href="blog.html" class="nav-link"> Blog </a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Elements
+                <i
+                  class="fa-solid fa-chevron-down ms-2"
+                  style="font-size: 12px"
+                ></i>
+              </a>
+              <ul class="dropdown-menu border-0 mt-1 px-3">
+                <li>
+                  <a class="dropdown-item py-2" href="index.html">Property</a>
+                </li>
+                <li>
+                  <a class="dropdown-item py-2" href="#">Agent / Agency</a>
+                </li>
+                <li>
+                  <a class="dropdown-item py-2" href="#">Home - Agency</a>
+                </li>
+                <li><a class="dropdown-item py-2" href="#">Blog</a></li>
+                <li><a class="dropdown-item py-2" href="#">Testimonials</a></li>
+                <li>
+                  <a class="dropdown-item py-2" href="#">Test With Image</a>
+                </li>
+                <li><a class="dropdown-item py-2" href="#">Info Box</a></li>
+                <li>
+                  <a class="dropdown-item py-2" href="#">Pricing Table</a>
+                </li>
+                <li>
+                  <a class="dropdown-item py-2" href="#">Miscellaneous</a>
+                </li>
+                <li><a class="dropdown-item py-2" href="#">Signup</a></li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link"
+                href="contact.html"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Contact Us
+                <i
+                  class="fa-solid fa-chevron-down ms-2"
+                  style="font-size: 12px"
+                ></i>
+              </a>
+              <ul class="dropdown-menu border-0 mt-1 px-3">
+                <li>
+                  <a class="dropdown-item py-2" href="contact.html"
+                    >Contact Us 1</a
+                  >
+                </li>
+                <li><a class="dropdown-item py-2" href="#">Contact Us 2</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+        <div class="d-flex align-items-center">
+          <a
+            href="#loginModal"
+            class="text-decoration-none"
+            data-bs-toggle="modal"
+            data-bs-target="#loginModal"
+          >
+            <i class="fas fa-user"></i>
+            Login
+          </a>
+          <!-- Modal -->
+          <div
+            class="modal fade"
+            id="loginModal"
+            tabindex="-1"
+            aria-labelledby="exampleModalLabel"
+            aria-hidden="true"
+          >
+            <div
+              class="modal-dialog modal-dialog-centered"
+            >
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h1 class="modal-title fs-5 fw-bolder" id="exampleModalLabel">
+                    User Login
+                  </h1>
+                  <button
+                    type="button"
+                    class="btn-close"
+                    data-bs-dismiss="modal"
+                    aria-label="Close"
+                  ></button>
+                </div>
+                <div class="modal-body">
+                  <form>
+                    <div class="mb-3">
+                      <input
+                        type="text"
+                        class="form-control rounded-1 border-2 form-placeholder-light form-border-light-blue"
+                        placeholder="Username*"
+                        id="username"
+                        aria-describedby="username"
+                      />
+                    </div>
+                    <div class="mb-3">
+                      <input
+                        type="password"
+                        placeholder="Password*"
+                        class="form-control rounded-1 border-2 form-placeholder-light form-border-light-blue"
+                        id="password"
+                      />
+                    </div>
+                    <button
+                      type="submit"
+                      class="btn btn-primary w-100 text-white mb-3"
+                    >
+                      Login
+                    </button>
+                    <a href="#" class="text-primary text-decoration-none"
+                      >Lost your password?</a
+                    >
+                  </form>
+                </div>
+                <div class="modal-footer justify-content-start text-dark">
+                  Don't have an account?
+                  <a href="#" class="text-primary text-decoration-none"
+                    >Sign Up</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+          <a class="btn btn-primary text-white mx-3 d-none d-sm-block"
+            >Add Property</a
+          >
+          <button
+            class="navbar-toggle bg-transparent float-end border-0 d-lg-none"
+            type="button"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <i class="fa-solid fa-bars text-white fs-2"></i>
+          </button>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Side Navbar -->
+    <aside
+      class="side-navbar position-absolute top-0 left-0 text-white opacity-0 vh-100"
+    >
+      <div>
+        <ul
+          class="menu list-unstyled list-group list-group-flush"
+          id="sidebarAccordion"
+        >
+          <!-- Close Button -->
+          <a href="#" class="d-block menu-item px-3 py-4">
+            <i
+              class="close-btn-sidenav fa-solid fa-xmark text-white fs-2 float-end"
+            ></i>
+          </a>
+
+          <!-- Accordion Item: Home -->
+          <li class="list-group-item menu-item px-0">
+            <a
+              href="#"
+              class="text-white fs-6 fw-bold text-decoration-none d-flex align-items-center justify-content-between py-2 px-3"
+              data-bs-toggle="collapse"
+              data-bs-target="#homeSubmenu"
+              aria-expanded="false"
+              aria-controls="homeSubmenu"
+            >
+              Home
+              <i class="fa-solid fa-plus text-white fs-6 float-end"></i>
+            </a>
+            <ul
+              id="homeSubmenu"
+              class="collapse sub-menu list-unstyled list-group list-group-flush"
+            >
+              <li class="py-2 px-0 sub-menu-item list-group-item">
+                <a
+                  href="index.html"
+                  class="text-white text-decoration-none fs-6 fw-bold px-3"
+                  >Home - Default</a
+                >
+              </li>
+              <li class="py-2 px-0 sub-menu-item list-group-item">
+                <a
+                  href="#"
+                  class="text-white text-decoration-none fs-6 fw-bold px-3"
+                  >Home - Slider</a
+                >
+              </li>
+              <li class="py-2 px-0 sub-menu-item list-group-item">
+                <a
+                  href="#"
+                  class="text-white text-decoration-none fs-6 fw-bold px-3"
+                  >Home - Agency</a
+                >
+              </li>
+              <li class="py-2 px-0 sub-menu-item list-group-item">
+                <a
+                  href="#"
+                  class="text-white text-decoration-none fs-6 fw-bold px-3"
+                  >Home - Agent</a
+                >
+              </li>
+              <li class="py-2 px-0 sub-menu-item list-group-item">
+                <a
+                  href="#"
+                  class="text-white text-decoration-none fs-6 fw-bold px-3"
+                  >Home - Full Map</a
+                >
+              </li>
+              <li class="py-2 px-0 sub-menu-item list-group-item">
+                <a
+                  href="#"
+                  class="text-white text-decoration-none fs-6 fw-bold px-3"
+                  >Home - Half</a
+                >
+              </li>
+            </ul>
+          </li>
+
+          <!-- Accordion Item: Listings -->
+          <li class="list-group-item menu-item px-0">
+            <a
+              href="#"
+              class="text-white fs-6 fw-bold text-decoration-none d-flex align-items-center justify-content-between py-2 px-3"
+              data-bs-toggle="collapse"
+              data-bs-target="#listingsSubmenu"
+              aria-expanded="false"
+              aria-controls="listingsSubmenu"
+            >
+              Listings
+              <i class="fa-solid fa-plus text-white fs-6 float-end"></i>
+            </a>
+            <ul
+              id="listingsSubmenu"
+              class="collapse sub-menu list-unstyled list-group list-group-flush"
+            >
+              <li class="py-2 px-0 sub-menu-item list-group-item">
+                <a
+                  href="properties.html"
+                  class="text-white text-decoration-none fs-6 fw-bold px-3"
+                  >Properties</a
+                >
+              </li>
+              <li class="py-2 px-0 sub-menu-item list-group-item">
+                <a
+                  href="#"
+                  class="text-white text-decoration-none fs-6 fw-bold px-3"
+                  >Agencies</a
+                >
+              </li>
+              <li class="py-2 px-0 sub-menu-item list-group-item">
+                <a
+                  href="#"
+                  class="text-white text-decoration-none fs-6 fw-bold px-3"
+                  >Agent</a
+                >
+              </li>
+            </ul>
+          </li>
+
+          <!-- Accordion Item: About Us -->
+          <li class="list-group-item menu-item px-0">
+            <a
+              href="#"
+              class="text-white fs-6 fw-bold text-decoration-none d-flex align-items-center justify-content-between py-2 px-3"
+              data-bs-toggle="collapse"
+              data-bs-target="#aboutUsSubmenu"
+              aria-expanded="false"
+              aria-controls="aboutUsSubmenu"
+            >
+              About Us
+              <i class="fa-solid fa-plus text-white fs-6 float-end"></i>
+            </a>
+            <ul
+              id="aboutUsSubmenu"
+              class="collapse sub-menu list-unstyled list-group list-group-flush"
+            >
+              <li class="py-2 px-0 sub-menu-item list-group-item">
+                <a
+                  href="about.html"
+                  class="text-white text-decoration-none fs-6 fw-bold px-3"
+                  >About Us 1</a
+                >
+              </li>
+              <li class="py-2 px-0 sub-menu-item list-group-item">
+                <a
+                  href="#"
+                  class="text-white text-decoration-none fs-6 fw-bold px-3"
+                  >About Us 2</a
+                >
+              </li>
+            </ul>
+          </li>
+
+          <!-- Accordion Item: Blog -->
+          <li class="list-group-item menu-item px-0">
+            <a
+              href="#"
+              class="text-white fs-6 fw-bold text-decoration-none d-flex align-items-center justify-content-between py-2 px-3"
+              data-bs-toggle="collapse"
+              data-bs-target="#blogSubmenu"
+              aria-expanded="false"
+              aria-controls="blogSubmenu"
+            >
+              Blog
+            </a>
+          </li>
+
+          <!-- Accordion Item: Elements -->
+          <li class="list-group-item menu-item px-0">
+            <a
+              href="#"
+              class="text-white fs-6 fw-bold text-decoration-none d-flex align-items-center justify-content-between py-2 px-3"
+              data-bs-toggle="collapse"
+              data-bs-target="#elementsSubmenu"
+              aria-expanded="false"
+              aria-controls="elementsSubmenu"
+            >
+              Elements
+              <i class="fa-solid fa-plus text-white fs-6 float-end"></i>
+            </a>
+            <ul
+              id="elementsSubmenu"
+              class="collapse sub-menu list-unstyled list-group list-group-flush"
+            >
+              <li class="py-2 px-0 sub-menu-item list-group-item">
+                <a
+                  href="#"
+                  class="text-white text-decoration-none fs-6 fw-bold px-3"
+                  >Property</a
+                >
+              </li>
+              <li class="py-2 px-0 sub-menu-item list-group-item">
+                <a
+                  href="#"
+                  class="text-white text-decoration-none fs-6 fw-bold px-3"
+                  >Agent / Agency</a
+                >
+              </li>
+              <li class="py-2 px-0 sub-menu-item list-group-item">
+                <a
+                  href="#"
+                  class="text-white text-decoration-none fs-6 fw-bold px-3"
+                  >Blog</a
+                >
+              </li>
+              <li class="py-2 px-0 sub-menu-item list-group-item">
+                <a
+                  href="#"
+                  class="text-white text-decoration-none fs-6 fw-bold px-3"
+                  >Testimonials</a
+                >
+              </li>
+              <li class="py-2 px-0 sub-menu-item list-group-item">
+                <a
+                  href="#"
+                  class="text-white text-decoration-none fs-6 fw-bold px-3"
+                  >Text With Image</a
+                >
+              </li>
+              <li class="py-2 px-0 sub-menu-item list-group-item">
+                <a
+                  href="#"
+                  class="text-white text-decoration-none fs-6 fw-bold px-3"
+                  >Info Box</a
+                >
+              </li>
+              <li class="py-2 px-0 sub-menu-item list-group-item">
+                <a
+                  href="#"
+                  class="text-white text-decoration-none fs-6 fw-bold px-3"
+                  >Pricing Table</a
+                >
+              </li>
+              <li class="py-2 px-0 sub-menu-item list-group-item">
+                <a
+                  href="#"
+                  class="text-white text-decoration-none fs-6 fw-bold px-3"
+                  >Miscellaneous</a
+                >
+              </li>
+              <li class="py-2 px-0 sub-menu-item list-group-item">
+                <a
+                  href="#"
+                  class="text-white text-decoration-none fs-6 fw-bold px-3"
+                  >Signup</a
+                >
+              </li>
+            </ul>
+          </li>
+
+          <!-- Accordion Item: Contact Us -->
+          <li class="list-group-item menu-item px-0">
+            <a
+              href="#"
+              class="text-white fs-6 fw-bold text-decoration-none d-flex align-items-center justify-content-between py-2 px-3"
+              data-bs-toggle="collapse"
+              data-bs-target="#contactUsSubmenu"
+              aria-expanded="false"
+              aria-controls="contactUsSubmenu"
+            >
+              Contact Us
+              <i class="fa-solid fa-plus text-white fs-6 float-end"></i>
+            </a>
+            <ul
+              id="contactUsSubmenu"
+              class="collapse sub-menu list-unstyled list-group list-group-flush"
+            >
+              <li class="py-2 px-0 sub-menu-item list-group-item">
+                <a
+                  href="#"
+                  class="text-white text-decoration-none fs-6 fw-bold px-3"
+                  >Contact Us 1</a
+                >
+              </li>
+              <li class="py-2 px-0 sub-menu-item list-group-item">
+                <a
+                  href="#"
+                  class="text-white text-decoration-none fs-6 fw-bold px-3"
+                  >Contact Us 2</a
+                >
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </aside>
+
+    <!-- Hero Section -->
+    <section class="hero-section pt-8 pb-6" id="hero-section">
+      <div
+        class="container-fluid position-relative z-3 d-flex flex-column justify-content-center"
+      >
+        <div class="row hero-text">
+          <div
+            class="col-12 col-md-10 offset-md-1 col-lg-8 offset-lg-2 text-center text-white"
+          >
+            <h2 data-aos="zoom-in" data-aos-duration="2000" data-aos-delay="10">
+              Find your perfect fit!
+            </h2>
+            <h1 class="fw-bold slideUp">
+              Discover Your <span class="text-primary">Dream</span> Home
+            </h1>
+            <p class="slideUp">
+              We can find you the perfect property & help you locate the home of
+              your dreams.
+            </p>
+          </div>
+        </div>
+
+        <div class="row my-5 mx-3" data-aos="slide-up" data-aos-duration="1500">
+          <div class="col-12">
+            <form action="#" class="position-relative">
+              <div
+                class="search-container bg-white bg-opacity-10 p-4 p-lg-2 rounded-1 mb-3"
+              >
+                <div class="row g-3 g-lg-0 bg-white p-2 p-lg-1 rounded-2">
+                  <div class="col-lg-6 px-0">
+                    <input
+                      type="text"
+                      class="no-focus-border form-control border border-lg-0-custom border-2 form-placeholder-light"
+                      placeholder="Search properties by title ..."
+                      aria-label="Recipient's username with two button addons"
+                    />
+                  </div>
+                  <div class="col-lg-2 px-0 border-start">
+                    <select
+                      class="form-select form border border-2 border-lg-start border-lg-0-custom text-dark"
+                      aria-label="selectStatus"
+                    >
+                      <option selected>Select Status</option>
+                      <option value="rent">Rent</option>
+                      <option value="sale">Sale</option>
+                    </select>
+                  </div>
+                  <div class="col-lg-2 px-0 border-start border-end">
+                    <select
+                      class="form-select form m-0 border border-2 border-lg-0-custom border-lg-start border-lg-end text-dark"
+                      aria-label="selectStatus"
+                    >
+                      <option selected>Select Type</option>
+                      <option value="apartment">Apartment</option>
+                      <option value="condo">Condo</option>
+                      <option value="family-house">Family House</option>
+                      <option value="farm-house">Farm House</option>
+                      <option value="modern-villa">Modern Villa</option>
+                    </select>
+                  </div>
+                  <div
+                    class="col-lg-2 px-0 bg-white d-flex justify-content-around align-items-center"
+                  >
+                    <div class="p-3">
+                      <i
+                        id="fa-gear"
+                        class="fa-solid fa-gear text-primary fs-5 cursor-pointer"
+                      ></i>
+                    </div>
+                    <button
+                      type="button"
+                      class="btn btn-primary py-3 text-white rounded-1 w-100"
+                    >
+                      Search
+                    </button>
+                  </div>
+                </div>
+              </div>
+
+              <div class="advance-search-container bg-white rounded-2 z-3">
+                <div class="mb-3">
+                  <div class="row">
+                    <div class="col-lg-4">
+                      <select
+                        class="form-select form-select-lg mb-3 text-dark fs-6 border border-2 rounded-1"
+                        aria-label="Large select city"
+                      >
+                        <option selected>Select City</option>
+                        <option value="bangkok">Bangkok</option>
+                        <option value="london">London</option>
+                        <option value="los angeles">Los Angeles</option>
+                        <option value="new york city">New York City</option>
+                        <option value="paris">Paris</option>
+                      </select>
+                    </div>
+                    <div class="col-lg-4">
+                      <input
+                        class="form-control form-control-lg form-placeholder-light fs-6 border border-2 rounded-1"
+                        type="text"
+                        placeholder="Min Area (m²)"
+                        aria-label="min-area"
+                      />
+                    </div>
+                    <div class="col-lg-4">
+                      <input
+                        class="form-control form-control-lg form-placeholder-light fs-6 border border-2 rounded-1"
+                        type="text"
+                        placeholder="Max Area (m²)"
+                        aria-label="max-area"
+                      />
+                    </div>
+                    <div class="col-lg-4">
+                      <input
+                        class="form-control form-control-lg form-placeholder-light fs-6 border border-2 rounded-1"
+                        type="text"
+                        placeholder="Bedrooms"
+                        aria-label="bedrooms"
+                      />
+                    </div>
+                    <div class="col-lg-4">
+                      <input
+                        class="form-control form-control-lg form-placeholder-light fs-6 border border-2 rounded-1"
+                        type="text"
+                        placeholder="Bathrooms"
+                        aria-label="bathrooms"
+                      />
+                    </div>
+                    <div class="col-lg-4">
+                      <input
+                        class="form-control form-control-lg form-placeholder-light fs-6 border border-2 rounded-1"
+                        type="text"
+                        placeholder="Built Year"
+                        aria-label="built-year"
+                      />
+                    </div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-12">
+                    <div class="range-container">
+                      <p class="text-dark">
+                        Price Range:
+                        <span id="minValue" class="minValue">$242876</span>
+                        -
+                        <span id="minValue" class="minValue">$795932</span>
+                      </p>
+                      <input
+                        type="range"
+                        class="form-range"
+                        id="customRange1"
+                      />
+                    </div>
+                  </div>
+                </div>
+                <div class="amenities-container">
+                  <p class="text-dark fw-bold">Amenities</p>
+                  <hr />
+                  <div class="row">
+                    <div class="col-sm-6 col-lg-3">
+                      <div class="form-check">
+                        <input
+                          class="form-check-input"
+                          type="radio"
+                          onclick="toggleRadio(this)"
+                          name="airConditioning"
+                          id="airConditioning"
+                        />
+                        <label
+                          class="form-check-label text-dark text-dark"
+                          for="airConditioning"
+                        >
+                          Air Conditioning
+                        </label>
+                      </div>
+                      <div class="form-check">
+                        <input
+                          class="form-check-input"
+                          type="radio"
+                          onclick="toggleRadio(this)"
+                          name="garage"
+                          id="garage"
+                        />
+                        <label
+                          class="form-check-label text-dark text-dark"
+                          for="garage"
+                        >
+                          Garage
+                        </label>
+                      </div>
+                      <div class="form-check">
+                        <input
+                          class="form-check-input"
+                          type="radio"
+                          onclick="toggleRadio(this)"
+                          name="kitchen"
+                          id="kitchen"
+                        />
+                        <label
+                          class="form-check-label text-dark text-dark"
+                          for="kitchen"
+                        >
+                          Kitchen
+                        </label>
+                      </div>
+                      <div class="form-check">
+                        <input
+                          class="form-check-input"
+                          type="radio"
+                          onclick="toggleRadio(this)"
+                          name="naturalLight"
+                          id="naturalLight"
+                        />
+                        <label
+                          class="form-check-label text-dark text-dark"
+                          for="naturalLight"
+                        >
+                          Natural Light
+                        </label>
+                      </div>
+                      <div class="form-check">
+                        <input
+                          class="form-check-input"
+                          type="radio"
+                          onclick="toggleRadio(this)"
+                          name="solarPanels"
+                          id="solarPanels"
+                        />
+                        <label
+                          class="form-check-label text-dark text-dark"
+                          for="solarPanels"
+                        >
+                          Solar Panels
+                        </label>
+                      </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-6">
+                      <div class="form-check">
+                        <input
+                          class="form-check-input"
+                          type="radio"
+                          onclick="toggleRadio(this)"
+                          name="balcony"
+                          id="balcony"
+                        />
+                        <label
+                          class="form-check-label text-dark text-dark"
+                          for="balcony"
+                        >
+                          Balcony
+                        </label>
+                      </div>
+                      <div class="form-check">
+                        <input
+                          class="form-check-input"
+                          type="radio"
+                          onclick="toggleRadio(this)"
+                          name="hardwareFloors"
+                          id="hardwareFloors"
+                        />
+                        <label
+                          class="form-check-label text-dark text-dark"
+                          for="hardwareFloors"
+                        >
+                          Hardware Floors
+                        </label>
+                      </div>
+                      <div class="form-check">
+                        <input
+                          class="form-check-input"
+                          type="radio"
+                          onclick="toggleRadio(this)"
+                          name="laundryRoom"
+                          id="laundryRoom"
+                        />
+                        <label
+                          class="form-check-label text-dark text-dark"
+                          for="laundryRoom"
+                        >
+                          Laundry Room
+                        </label>
+                      </div>
+                      <div class="form-check">
+                        <input
+                          class="form-check-input"
+                          type="radio"
+                          onclick="toggleRadio(this)"
+                          name="outdoorSpace"
+                          id="outdoorSpace"
+                        />
+                        <label
+                          class="form-check-label text-dark text-dark"
+                          for="outdoorSpace"
+                        >
+                          Outdoor Space
+                        </label>
+                      </div>
+                      <div class="form-check">
+                        <input
+                          class="form-check-input"
+                          type="radio"
+                          onclick="toggleRadio(this)"
+                          name="swimmingPool"
+                          id="swimmingPool"
+                        />
+                        <label
+                          class="form-check-label text-dark text-dark"
+                          for="swimmingPool"
+                        >
+                          Swimming Pool
+                        </label>
+                      </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-6">
+                      <div class="form-check">
+                        <input
+                          class="form-check-input"
+                          type="radio"
+                          onclick="toggleRadio(this)"
+                          name="fireplace"
+                          id="fireplace"
+                        />
+                        <label
+                          class="form-check-label text-dark text-dark"
+                          for="fireplace"
+                        >
+                          Fireplace
+                        </label>
+                      </div>
+                      <div class="form-check">
+                        <input
+                          class="form-check-input"
+                          type="radio"
+                          onclick="toggleRadio(this)"
+                          name="highRoof"
+                          id="highRoof"
+                        />
+                        <label
+                          class="form-check-label text-dark text-dark"
+                          for="highRoof"
+                        >
+                          High Roof
+                        </label>
+                      </div>
+                      <div class="form-check">
+                        <input
+                          class="form-check-input"
+                          type="radio"
+                          onclick="toggleRadio(this)"
+                          name="library"
+                          id="library"
+                        />
+                        <label
+                          class="form-check-label text-dark text-dark"
+                          for="library"
+                        >
+                          Library
+                        </label>
+                      </div>
+                      <div class="form-check">
+                        <input
+                          class="form-check-input"
+                          type="radio"
+                          onclick="toggleRadio(this)"
+                          name="parking"
+                          id="parking"
+                        />
+                        <label
+                          class="form-check-label text-dark text-dark"
+                          for="parking"
+                        >
+                          Parking
+                        </label>
+                      </div>
+                      <div class="form-check">
+                        <input
+                          class="form-check-input"
+                          type="radio"
+                          onclick="toggleRadio(this)"
+                          name="tvCable"
+                          id="tvCable"
+                        />
+                        <label
+                          class="form-check-label text-dark text-dark"
+                          for="tvCable"
+                        >
+                          TV Cable
+                        </label>
+                      </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-6">
+                      <div class="form-check">
+                        <input
+                          class="form-check-input"
+                          type="radio"
+                          onclick="toggleRadio(this)"
+                          name="furnishedFloors"
+                          id="furnishedFloors"
+                        />
+                        <label
+                          class="form-check-label text-dark text-dark"
+                          for="furnishedFloors"
+                        >
+                          Furnished Floors
+                        </label>
+                      </div>
+                      <div class="form-check">
+                        <input
+                          class="form-check-input"
+                          type="radio"
+                          onclick="toggleRadio(this)"
+                          name="internetWifi"
+                          id="internetWifi"
+                        />
+                        <label
+                          class="form-check-label text-dark text-dark"
+                          for="internetWifi"
+                        >
+                          Internet / Wi-Fi
+                        </label>
+                      </div>
+                      <div class="form-check">
+                        <input
+                          class="form-check-input"
+                          type="radio"
+                          onclick="toggleRadio(this)"
+                          name="mediaRoom"
+                          id="mediaRoom"
+                        />
+                        <label
+                          class="form-check-label text-dark text-dark"
+                          for="mediaRoom"
+                        >
+                          Media Room
+                        </label>
+                      </div>
+                      <div class="form-check">
+                        <input
+                          class="form-check-input"
+                          type="radio"
+                          onclick="toggleRadio(this)"
+                          name="patio"
+                          id="patio"
+                        />
+                        <label
+                          class="form-check-label text-dark text-dark"
+                          for="patio"
+                        >
+                          Patio
+                        </label>
+                      </div>
+                      <div class="form-check">
+                        <input
+                          class="form-check-input"
+                          type="radio"
+                          onclick="toggleRadio(this)"
+                          name="walkinClosets"
+                          id="walkinClosets"
+                        />
+                        <label
+                          class="form-check-label text-dark text-dark"
+                          for="walkinClosets"
+                        >
+                          Walk-in Closets
+                        </label>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+
+        <div
+          class="property-type row px-3 my-3 g-3 d-none d-lg-flex position-relative"
+          style="z-index: -1"
+        >
+          <div class="col-lg-2 col-md-4 col-6" data-aos="zoom-in">
+            <a
+              href="#"
+              class="py-4 d-flex flex-column justify-content-center align-items-center border border-2 border-light border-opacity-10 rounded-2 bg-white bg-opacity-10 text-decoration-none"
+            >
+              <i
+                class="fa-regular fa-building text-white mb-2"
+                style="font-size: 3rem"
+              ></i>
+              <p class="text-light mb-0">Apartment</p>
+            </a>
+          </div>
+          <div class="col-lg-2 col-md-4 col-6" data-aos="zoom-in">
+            <a
+              href="#"
+              class="py-4 d-flex flex-column justify-content-center align-items-center border border-2 border-light border-opacity-10 rounded-2 bg-white bg-opacity-10 text-decoration-none"
+            >
+              <i
+                class="fa-solid fa-building-user text-light mb-2"
+                style="font-size: 3rem"
+              ></i>
+              <p class="text-light mb-0">Condo</p>
+            </a>
+          </div>
+          <div class="col-lg-2 col-md-4 col-6" data-aos="zoom-in">
+            <a
+              href="#"
+              class="py-4 d-flex flex-column justify-content-center align-items-center border border-2 border-light border-opacity-10 rounded-2 bg-white bg-opacity-10 text-decoration-none"
+            >
+              <i
+                class="fa-solid fa-house text-light mb-2"
+                style="font-size: 3rem"
+              ></i>
+              <p class="text-light mb-0">House</p>
+            </a>
+          </div>
+          <div class="col-lg-2 col-md-4 col-6" data-aos="zoom-in">
+            <a
+              href="#"
+              class="py-4 d-flex flex-column justify-content-center align-items-center border border-2 border-light border-opacity-10 rounded-2 bg-white bg-opacity-10 text-decoration-none"
+            >
+              <i
+                class="fa-regular fa-building text-white mb-2"
+                style="font-size: 3rem"
+              ></i>
+              <p class="text-light mb-0">Apartment</p>
+            </a>
+          </div>
+          <div class="col-lg-2 col-md-4 col-6" data-aos="zoom-in">
+            <a
+              href="#"
+              class="py-4 d-flex flex-column justify-content-center align-items-center border border-2 border-light border-opacity-10 rounded-2 bg-white bg-opacity-10 text-decoration-none"
+            >
+              <i
+                class="fa-regular fa-building text-white mb-2"
+                style="font-size: 3rem"
+              ></i>
+              <p class="text-light mb-0">Apartment</p>
+            </a>
+          </div>
+          <div class="col-lg-2 col-md-4 col-6" data-aos="zoom-in">
+            <a
+              href="#"
+              class="py-4 d-flex flex-column justify-content-center align-items-center border border-2 border-light border-opacity-10 rounded-2 bg-white bg-opacity-10 text-decoration-none"
+            >
+              <i
+                class="fa-regular fa-building text-white mb-2"
+                style="font-size: 3rem"
+              ></i>
+              <p class="text-light mb-0">Apartment</p>
+            </a>
+          </div>
+        </div>
+
+        <div class="row my-3">
+          <div class="col-12 text-center d-flex flex-column">
+            <a href="#feature-property">
+              <i class="fa-solid fa-computer-mouse text-white fs-2"></i>
+            </a>
+            <i class="fa-solid fa-angle-down text-white"></i>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Property Type Section -->
+    <section class="property-type d-lg-none" id="property-type">
+      <div class="container-fluid">
+        <div class="row g-4 py-5">
+          <div class="type-1 col-md-4 col-6">
+            <a
+              href="#"
+              class="py-4 d-flex flex-column justify-content-center align-items-center border border-2 border-light border-opacity-10 rounded-2 bg-white bg-opacity-10 text-decoration-none"
+            >
+              <i
+                class="fa-regular fa-building text-white mb-2"
+                style="font-size: 3rem"
+              ></i>
+              <p class="text-light mb-0">Apartment</p>
+            </a>
+          </div>
+          <div class="type-2 col-md-4 col-6">
+            <a
+              href="#"
+              class="py-4 d-flex flex-column justify-content-center align-items-center border border-2 border-light border-opacity-10 rounded-2 bg-white bg-opacity-10 text-decoration-none"
+            >
+              <i
+                class="fa-solid fa-building-user text-light mb-2"
+                style="font-size: 3rem"
+              ></i>
+              <p class="text-light mb-0">Condo</p>
+            </a>
+          </div>
+          <div class="type-3 col-md-4 col-6">
+            <a
+              href="#"
+              class="py-4 d-flex flex-column justify-content-center align-items-center border border-2 border-light border-opacity-10 rounded-2 bg-white bg-opacity-10 text-decoration-none"
+            >
+              <i
+                class="fa-solid fa-house text-light mb-2"
+                style="font-size: 3rem"
+              ></i>
+              <p class="text-light mb-0">House</p>
+            </a>
+          </div>
+          <div class="type-4 col-md-4 col-6">
+            <a
+              href="#"
+              class="py-4 d-flex flex-column justify-content-center align-items-center border border-2 border-light border-opacity-10 rounded-2 bg-white bg-opacity-10 text-decoration-none"
+            >
+              <i
+                class="fa-regular fa-building text-white mb-2"
+                style="font-size: 3rem"
+              ></i>
+              <p class="text-light mb-0">Apartment</p>
+            </a>
+          </div>
+          <div class="type-5 col-md-4 col-6">
+            <a
+              href="#"
+              class="py-4 d-flex flex-column justify-content-center align-items-center border border-2 border-light border-opacity-10 rounded-2 bg-white bg-opacity-10 text-decoration-none"
+            >
+              <i
+                class="fa-regular fa-building text-white mb-2"
+                style="font-size: 3rem"
+              ></i>
+              <p class="text-light mb-0">Apartment</p>
+            </a>
+          </div>
+          <div class="type-6 col-md-4 col-6">
+            <a
+              href="#"
+              class="py-4 d-flex flex-column justify-content-center align-items-center border border-2 border-light border-opacity-10 rounded-2 bg-white bg-opacity-10 text-decoration-none"
+            >
+              <i
+                class="fa-regular fa-building text-white mb-2"
+                style="font-size: 3rem"
+              ></i>
+              <p class="text-light mb-0">Apartment</p>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Featured Properties -->
+    <section class="feature-property py-5 py-lg-6" id="feature-property">
+      <div class="">
+        <div class="row">
+          <div class="col-10 offset-1 col-lg-6 offset-lg-3 text-center">
+            <h3
+              class="fs-4 mb-2 text-primary"
+              style="font-family: Delius; letter-spacing: 2px"
+            >
+              Popular Listings
+            </h3>
+            <h2 class="fs-2 mb-3 fw-bold" style="letter-spacing: 1px">
+              Feature Properties
+            </h2>
+            <div
+              class="divider-container d-flex justify-content-center align-items-center mb-3"
+            >
+              <span class="divider-line" style="color: #3e2ad3">-------</span>
+              <i
+                class="fa-solid fa-square-caret-down text-primary fs-4 mx-2"
+              ></i>
+              <span class="divider-line" style="color: #3e2ad3">-------</span>
+            </div>
+            <p class="fw-light mb-5">
+              At elementum eu facilisis sed odio morbi quis commodo. Tortor
+              pretium viverra ac tortor vitae purus. Dignissim cras tincidunt
+              lobortis feugiat vivamus.
+            </p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-12">
+            <!-- Swiper -->
+            <div class="swiper featurePropertySwiper px-5 pb-5">
+              <div class="swiper-wrapper" id="featured-property-slider-wrapper">
+                <div class="swiper-slide">
+                  <div class="card rounded-3 border-0">
+                    <div
+                      class="image-container position-relative overflow-hidden rounded-3"
+                    >
+                      <img
+                        src="./images/Office-Space-3-640x427.webp"
+                        class="latestPropertyCardImg card-img-top rounded-3"
+                        alt="..."
+                      />
+                      <div
+                        class="image-top p-3 position-absolute top-0 w-100 d-flex justify-content-between"
+                      >
+                        <div class="left">
+                          <span
+                            class="badge bg-primary"
+                            style="background-color: #3e2ad3 !important"
+                            >Featured</span
+                          >
+                          <span class="badge bg-orange rounded-1"
+                            ><a href="#" class="text-decoration-none text-white"
+                              >Office Space</a
+                            ></span
+                          >
+                          <span class="badge bg-light-green rounded-1"
+                            ><a href="#" class="text-decoration-none text-white"
+                              >For Sale</a
+                            ></span
+                          >
+                        </div>
+                        <div class="right">
+                          <i
+                            class="fa-regular fa-heart text-primary bg-white p-1 rounded-1"
+                          ></i>
+                          <i
+                            class="fa-solid fa-arrow-right-arrow-left text-primary bg-white p-1 rounded-1"
+                          ></i>
+                        </div>
+                      </div>
+
+                      <div
+                        class="image-bottom position-absolute bottom-0 w-100 rounded-bottom-3 text-white"
+                      >
+                        <div
+                          class="d-flex justify-content-between align-items-center"
+                        >
+                          <div class="left">
+                            <p class="fw-light mb-2" style="font-size: 14px">
+                              <i class="fa-regular fa-location-dot"></i>
+                              168th Street
+                            </p>
+                            <h5 class="card-title fw-bold">
+                              <a
+                                href="#"
+                                class="text-decoration-none text-white"
+                                >Office Space In New York</a
+                              >
+                            </h5>
+                          </div>
+                          <div class="right">
+                            <a href="#" class="">
+                              <i
+                                class="opacity-0 center-button fa-solid fa-arrow-right fs-2 p-2 rounded-circle text-white bg-primary"
+                              ></i>
+                            </a>
+                          </div>
+                        </div>
+                        <hr />
+                        <div
+                          class="d-flex justify-content-between align-items-center"
+                        >
+                          <div class="left">
+                            <p class="my-0">110 m² Sqft</p>
+                          </div>
+                          <div class="right">
+                            <span class="me-3">
+                              <i class="fa-solid fa-bed"></i>
+                              NA
+                            </span>
+                            <span class="me-3">
+                              <i class="fa-solid fa-bath"></i>
+                              NA
+                            </span>
+                            <span>
+                              <i class="fa-solid fa-car"></i>
+                              NA
+                            </span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-pagination"></div>
+              <div class="swiper-button-next fw-bold text-primary"></div>
+              <div class="swiper-button-prev fw-bold text-primary"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about py-5 py-md-6">
+      <div class="container-fluid container-lg">
+        <div class="row g-lg-6" data-aos="fade-in">
+          <div class="col-lg-6 d-flex align-items-center">
+            <div class="image-container position-relative">
+              <img src="./images/Gallery.webp" class="img-fluid" alt="" />
+              <a
+                class="about-video-btn"
+                data-bs-toggle="modal"
+                data-bs-target="#aboutVideoModal"
+                data-bs-src="https://www.youtube.com/embed/Sz_1tkcU0Co"
+              >
+                <span class="video-play-button">
+                  <span></span>
+                </span>
+              </a>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="text-container text-center text-lg-start">
+              <h2
+                class="fs-4 text-primary mt-5 mt-lg-0"
+                style="font-family: Delius"
+              >
+                About Us
+              </h2>
+              <h1 class="fs-2 fw-bold">
+                Grow your Real Estate <br />
+                business with Luxus.
+              </h1>
+              <div
+                class="divider-container d-flex justify-content-center justify-content-lg-start align-items-center mb-3"
+              >
+                <span class="divider-line d-lg-none" style="color: #3e2ad3"
+                  >-------</span
+                >
+                <i
+                  class="fa-solid fa-square-caret-down text-primary fs-4 mx-2 ms-lg-0"
+                ></i>
+                <span class="divider-line" style="color: #3e2ad3">-------</span>
+              </div>
+              <p class="fw-light lh-sm fw-light mb-5 mb-lg-3">
+                Mauris id tincidunt urna. Donec nibh neque, luctus vel sem
+                vitae, aliquet gravida nisi. Nam scelerisque molestie velit at
+                pretium. Aliquam porta condimentum ex, eu ullamcorper enim
+                molestie sit amet. Fusce bibendum quis nibh ac porttitor.
+              </p>
+              <div class="row">
+                <div class="col-12 col-md-6 col-lg-12">
+                  <div class="d-flex flex-column flex-lg-row">
+                    <i
+                      class="fa-solid fa-file-contract text-primary me-4 mb-3"
+                      style="font-size: 5rem"
+                    ></i>
+                    <div class="">
+                      <h3 class="fs-5 fw-bold my-1 mb-3">
+                        It’s Easier to Register
+                      </h3>
+                      <p class="fw-light lh-sm">
+                        Proin ut ligula vel nunc egestas porttitor. Morbi lectus
+                        risus, iaculis vel, suscipit quis, luctus ac turpis.​
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-12">
+                  <div class="d-flex flex-column flex-lg-row">
+                    <i
+                      class="fa-regular fa-file text-primary me-4 mb-3"
+                      style="font-size: 5rem"
+                    ></i>
+                    <div class="">
+                      <h3 class="fs-5 fw-bold my-1 mb-3">
+                        Get Your Listings Promoted
+                      </h3>
+                      <p class="fw-light lh-sm">
+                        Lectus magna fringilla urna porttitor rhoncus dolor
+                        purus. Nunc lobortis mattis aliquam faucibus.​
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Video Modal -->
+      <div class="video-modal">
+        <div id="aboutVideoModal" class="modal fade">
+          <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+              <div class="ratio ratio-16x9">
+                <iframe
+                  frameborder="0"
+                  class="embed-responsive-item"
+                  id="aboutVideo"
+                  allow="autoplay"
+                ></iframe>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Latest Properties Listing -->
+    <section class="latest-property py-5 py-lg-6" id="latest-property">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-10 offset-1 col-lg-6 offset-lg-3 text-center">
+            <h3
+              class="fs-4 mb-2 text-primary"
+              style="font-family: Delius; letter-spacing: 2px"
+            >
+              Properties
+            </h3>
+            <h2 class="fs-2 mb-3 fw-bold" style="letter-spacing: 1px">
+              Latest Listings
+            </h2>
+            <div
+              class="divider-container d-flex justify-content-center align-items-center mb-3"
+            >
+              <span class="divider-line" style="color: #3e2ad3">-------</span>
+              <i
+                class="fa-solid fa-square-caret-down text-primary fs-4 mx-2"
+              ></i>
+              <span class="divider-line" style="color: #3e2ad3">-------</span>
+            </div>
+            <p class="fw-light mb-5">
+              Eget egestas purus viverra accumsan. Non nisi est sit amet
+              facilisis magna. Auctor neque vitae tempus quam pellentesque nec
+              nam, Mattis enims vitae et leo duis.
+            </p>
+          </div>
+        </div>
+        <div class="row" data-aos="slide-up" data-aos-duration="1500">
+          <div class="col-md-6 col-lg-4">
+            <div class="card rounded-3 border-0">
+              <div
+                class="image-container position-relative overflow-hidden rounded-3"
+              >
+                <img
+                  src="./images/Office-Space-3-640x427.webp"
+                  class="latestPropertyCardImg card-img-top rounded-3"
+                  alt="..."
+                />
+                <a href="#" class="">
+                  <i
+                    class="opacity-0 center-button fa-solid fa-arrow-up fs-2 px-2 py-1 rounded-circle text-white bg-dark position-absolute start-50 top-50"
+                  ></i>
+                </a>
+                <div
+                  class="image-top p-3 position-absolute top-0 w-100 d-flex justify-content-between"
+                >
+                  <div class="left">
+                    <span class="badge bg-primary">Featured</span>
+                  </div>
+                  <div class="right">
+                    <span class="badge bg-orange">Office Space</span>
+                    <span class="badge bg-light-green">For Sale</span>
+                  </div>
+                </div>
+
+                <div
+                  class="image-bottom position-absolute bottom-0 w-100 rounded-bottom-3 d-flex justify-content-between align-items-center"
+                >
+                  <div class="left">
+                    <p class="text-white my-0">110 m² Sqft</p>
+                    <p class="text-white my-0">$785000</p>
+                  </div>
+                  <div class="right">
+                    <i
+                      class="fa-regular fa-heart text-primary bg-white p-1 rounded-1"
+                    ></i>
+                    <i
+                      class="fa-solid fa-arrow-right-arrow-left text-primary bg-white p-1 rounded-1"
+                    ></i>
+                  </div>
+                </div>
+              </div>
+              <div class="card-body mt-2 py-1">
+                <h5 class="card-title fw-bold">Office Space In New York</h5>
+                <p class="fw-light mb-2" style="font-size: 14px">
+                  <i class="fa-regular fa-location-dot"></i>
+                  168th Street
+                </p>
+                <div
+                  class="features row text-center py-2 mx-1 rounded-1"
+                  style="border: 2px dotted #d1c2e9"
+                >
+                  <div class="col-4">
+                    <p class="fw-light my-0">Bedrooms</p>
+                    <p class="fw-light my-0">
+                      <i class="fa-solid fa-bed text-primary"></i>
+                      NA
+                    </p>
+                  </div>
+                  <div class="col-4 border-start border-end">
+                    <p class="fw-light my-0">Bathrooms</p>
+                    <p class="fw-light my-0">
+                      <i class="fa-solid fa-bath text-primary"></i>
+                      1
+                    </p>
+                  </div>
+                  <div class="col-4">
+                    <p class="fw-light my-0">Parking</p>
+                    <p class="fw-light my-0">
+                      <i class="fa-solid fa-car text-primary"></i>
+                      1
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="card-footer bg-white border-0 d-flex justify-content-between"
+              >
+                <span class="" style="font-size: 14px">
+                  <i class="fas fa-circle-user"></i>
+                  <a href="#" class="text-decoration-none text-dark fw-light"
+                    >Steven Jones</a
+                  >
+                </span>
+                <span class="" style="font-size: 14px">
+                  <i class="fas fa-calendar"></i>
+                  <a href="#" class="text-decoration-none text-dark fw-light"
+                    >March 16, 2021</a
+                  >
+                </span>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4">
+            <div class="card rounded-3 border-0">
+              <div
+                class="image-container position-relative overflow-hidden rounded-3"
+              >
+                <img
+                  src="./images/Villa-4-640x427.webp"
+                  class="latestPropertyCardImg card-img-top rounded-3"
+                  alt="..."
+                />
+                <a href="#" class="">
+                  <i
+                    class="opacity-0 center-button fa-solid fa-arrow-up fs-2 px-2 py-1 rounded-circle text-white bg-dark position-absolute start-50 top-50"
+                  ></i>
+                </a>
+                <div
+                  class="image-top p-3 position-absolute top-0 w-100 d-flex justify-content-between"
+                >
+                  <div class="left">
+                    <span class="badge bg-primary">Featured</span>
+                  </div>
+                  <div class="right">
+                    <span class="badge bg-orange">Modern Villa</span>
+                    <span class="badge bg-light-green">For Sale</span>
+                  </div>
+                </div>
+
+                <div
+                  class="image-bottom position-absolute bottom-0 w-100 rounded-bottom-3 d-flex justify-content-between align-items-center"
+                >
+                  <div class="left">
+                    <p class="text-white my-0">154A, Van Buren St</p>
+                    <p class="text-white my-0">$8545000</p>
+                  </div>
+                  <div class="right">
+                    <i
+                      class="fa-regular fa-heart text-primary bg-white p-1 rounded-1"
+                    ></i>
+                    <i
+                      class="fa-solid fa-arrow-right-arrow-left text-primary bg-white p-1 rounded-1"
+                    ></i>
+                  </div>
+                </div>
+              </div>
+              <div class="card-body mt-2 py-1">
+                <h5 class="card-title fw-bold">Modern Villa In NYC</h5>
+                <p class="fw-light mb-2" style="font-size: 14px">
+                  <i class="fa-regular fa-location-dot"></i>
+                  154A, Van Buren St
+                </p>
+                <div
+                  class="features row text-center py-2 mx-1 rounded-1"
+                  style="border: 2px dotted #d1c2e9"
+                >
+                  <div class="col-4">
+                    <p class="fw-light my-0">Bedrooms</p>
+                    <p class="fw-light my-0">
+                      <i class="fa-solid fa-bed text-primary"></i>
+                      12
+                    </p>
+                  </div>
+                  <div class="col-4 border-start border-end">
+                    <p class="fw-light my-0">Bathrooms</p>
+                    <p class="fw-light my-0">
+                      <i class="fa-solid fa-bath text-primary"></i>
+                      10
+                    </p>
+                  </div>
+                  <div class="col-4">
+                    <p class="fw-light my-0">Parking</p>
+                    <p class="fw-light my-0">
+                      <i class="fa-solid fa-car text-primary"></i>
+                      5
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="card-footer bg-white border-0 d-flex justify-content-between"
+              >
+                <span class="" style="font-size: 14px">
+                  <i class="fas fa-circle-user"></i>
+                  <a href="#" class="text-decoration-none text-dark fw-light"
+                    >Steven Jones</a
+                  >
+                </span>
+                <span class="" style="font-size: 14px">
+                  <i class="fas fa-calendar"></i>
+                  <a href="#" class="text-decoration-none text-dark fw-light"
+                    >March 16, 2021</a
+                  >
+                </span>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4">
+            <div class="card rounded-3 border-0">
+              <div
+                class="image-container position-relative overflow-hidden rounded-3"
+              >
+                <img
+                  src="./images/condominium-1-640x427.webp"
+                  class="latestPropertyCardImg card-img-top rounded-3"
+                  alt="..."
+                />
+                <a href="#" class="">
+                  <i
+                    class="opacity-0 center-button fa-solid fa-arrow-up fs-2 px-2 py-1 rounded-circle text-white bg-dark position-absolute start-50 top-50"
+                  ></i>
+                </a>
+                <div
+                  class="image-top p-3 position-absolute top-0 w-100 d-flex justify-content-between"
+                >
+                  <div class="left">
+                    <span class="badge bg-primary">Featured</span>
+                  </div>
+                  <div class="right">
+                    <span class="badge bg-orange">Condo</span>
+                    <span class="badge bg-light-green">For Sale</span>
+                  </div>
+                </div>
+
+                <div
+                  class="image-bottom position-absolute bottom-0 w-100 rounded-bottom-3 d-flex justify-content-between align-items-center"
+                >
+                  <div class="left">
+                    <p class="text-white my-0">640 m² Sqft</p>
+                    <p class="text-white my-0">$3548000</p>
+                  </div>
+                  <div class="right">
+                    <i
+                      class="fa-regular fa-heart text-primary bg-white p-1 rounded-1"
+                    ></i>
+                    <i
+                      class="fa-solid fa-arrow-right-arrow-left text-primary bg-white p-1 rounded-1"
+                    ></i>
+                  </div>
+                </div>
+              </div>
+              <div class="card-body mt-2 py-1">
+                <h5 class="card-title fw-bold">Luxury Condo In NYC</h5>
+                <p class="fw-light mb-2" style="font-size: 14px">
+                  <i class="fa-regular fa-location-dot"></i>
+                  Thieriot Avenue
+                </p>
+                <div
+                  class="features row text-center py-2 mx-1 rounded-1"
+                  style="border: 2px dotted #d1c2e9"
+                >
+                  <div class="col-4">
+                    <p class="fw-light my-0">Bedrooms</p>
+                    <p class="fw-light my-0">
+                      <i class="fa-solid fa-bed text-primary"></i>
+                      7
+                    </p>
+                  </div>
+                  <div class="col-4 border-start border-end">
+                    <p class="fw-light my-0">Bathrooms</p>
+                    <p class="fw-light my-0">
+                      <i class="fa-solid fa-bath text-primary"></i>
+                      5
+                    </p>
+                  </div>
+                  <div class="col-4">
+                    <p class="fw-light my-0">Parking</p>
+                    <p class="fw-light my-0">
+                      <i class="fa-solid fa-car text-primary"></i>
+                      2
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="card-footer bg-white border-0 d-flex justify-content-between"
+              >
+                <span class="" style="font-size: 14px">
+                  <i class="fas fa-circle-user"></i>
+                  <a href="#" class="text-decoration-none text-dark fw-light"
+                    >Steven Jones</a
+                  >
+                </span>
+                <span class="" style="font-size: 14px">
+                  <i class="fas fa-calendar"></i>
+                  <a href="#" class="text-decoration-none text-dark fw-light"
+                    >March 16, 2021</a
+                  >
+                </span>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4">
+            <div class="card rounded-3 border-0">
+              <div
+                class="image-container position-relative overflow-hidden rounded-3"
+              >
+                <img
+                  src="./images/Family-House-4-640x427.webp"
+                  class="latestPropertyCardImg card-img-top rounded-3"
+                  alt="..."
+                />
+                <a href="#" class="">
+                  <i
+                    class="opacity-0 center-button fa-solid fa-arrow-up fs-2 px-2 py-1 rounded-circle text-white bg-dark position-absolute start-50 top-50"
+                  ></i>
+                </a>
+                <div
+                  class="image-top p-3 position-absolute top-0 w-100 d-flex justify-content-between"
+                >
+                  <div class="left">
+                    <span class="badge bg-primary">Featured</span>
+                  </div>
+                  <div class="right">
+                    <span class="badge bg-orange">Family House</span>
+                    <span class="badge bg-light-green">For Sale</span>
+                  </div>
+                </div>
+
+                <div
+                  class="image-bottom position-absolute bottom-0 w-100 rounded-bottom-3 d-flex justify-content-between align-items-center"
+                >
+                  <div class="left">
+                    <p class="text-white my-0">340 m² Sqft</p>
+                    <p class="text-white my-0">$150000</p>
+                  </div>
+                  <div class="right">
+                    <i
+                      class="fa-regular fa-heart text-primary bg-white p-1 rounded-1"
+                    ></i>
+                    <i
+                      class="fa-solid fa-arrow-right-arrow-left text-primary bg-white p-1 rounded-1"
+                    ></i>
+                  </div>
+                </div>
+              </div>
+              <div class="card-body mt-2 py-1">
+                <h5 class="card-title fw-bold">Family House in NYC</h5>
+                <p class="fw-light mb-2" style="font-size: 14px">
+                  <i class="fa-regular fa-location-dot"></i>
+                  64th Street
+                </p>
+                <div
+                  class="features row text-center py-2 mx-1 rounded-1"
+                  style="border: 2px dotted #d1c2e9"
+                >
+                  <div class="col-4">
+                    <p class="fw-light my-0">Bedrooms</p>
+                    <p class="fw-light my-0">
+                      <i class="fa-solid fa-bed text-primary"></i>
+                      8
+                    </p>
+                  </div>
+                  <div class="col-4 border-start border-end">
+                    <p class="fw-light my-0">Bathrooms</p>
+                    <p class="fw-light my-0">
+                      <i class="fa-solid fa-bath text-primary"></i>
+                      6
+                    </p>
+                  </div>
+                  <div class="col-4">
+                    <p class="fw-light my-0">Parking</p>
+                    <p class="fw-light my-0">
+                      <i class="fa-solid fa-car text-primary"></i>
+                      3
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="card-footer bg-white border-0 d-flex justify-content-between"
+              >
+                <span class="" style="font-size: 14px">
+                  <i class="fas fa-circle-user"></i>
+                  <a href="#" class="text-decoration-none text-dark fw-light"
+                    >Steven Jones</a
+                  >
+                </span>
+                <span class="" style="font-size: 14px">
+                  <i class="fas fa-calendar"></i>
+                  <a href="#" class="text-decoration-none text-dark fw-light"
+                    >March 16, 2021</a
+                  >
+                </span>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4">
+            <div class="card rounded-3 border-0">
+              <div
+                class="image-container position-relative overflow-hidden rounded-3"
+              >
+                <img
+                  src="./images/Farmhouse-3-640x427.webp"
+                  class="latestPropertyCardImg card-img-top rounded-3"
+                  alt="..."
+                />
+                <a href="#" class="">
+                  <i
+                    class="opacity-0 center-button fa-solid fa-arrow-up fs-2 px-2 py-1 rounded-circle text-white bg-dark position-absolute start-50 top-50"
+                  ></i>
+                </a>
+                <div
+                  class="image-top p-3 position-absolute top-0 w-100 d-flex justify-content-between"
+                >
+                  <div class="left">
+                    <span class="badge bg-primary">Featured</span>
+                  </div>
+                  <div class="right">
+                    <span class="badge bg-orange">Farm House</span>
+                    <span class="badge bg-light-green">For Sale</span>
+                  </div>
+                </div>
+
+                <div
+                  class="image-bottom position-absolute bottom-0 w-100 rounded-bottom-3 d-flex justify-content-between align-items-center"
+                >
+                  <div class="left">
+                    <p class="text-white my-0">4500 m² Sqft</p>
+                    <p class="text-white my-0">$254000</p>
+                  </div>
+                  <div class="right">
+                    <i
+                      class="fa-regular fa-heart text-primary bg-white p-1 rounded-1"
+                    ></i>
+                    <i
+                      class="fa-solid fa-arrow-right-arrow-left text-primary bg-white p-1 rounded-1"
+                    ></i>
+                  </div>
+                </div>
+              </div>
+              <div class="card-body mt-2 py-1">
+                <h5 class="card-title fw-bold">Farm House in Los Angeles</h5>
+                <p class="fw-light mb-2" style="font-size: 14px">
+                  <i class="fa-regular fa-location-dot"></i>
+                  Beverly Hills
+                </p>
+                <div
+                  class="features row text-center py-2 mx-1 rounded-1"
+                  style="border: 2px dotted #d1c2e9"
+                >
+                  <div class="col-4">
+                    <p class="fw-light my-0">Bedrooms</p>
+                    <p class="fw-light my-0">
+                      <i class="fa-solid fa-bed text-primary"></i>
+                      9
+                    </p>
+                  </div>
+                  <div class="col-4 border-start border-end">
+                    <p class="fw-light my-0">Bathrooms</p>
+                    <p class="fw-light my-0">
+                      <i class="fa-solid fa-bath text-primary"></i>
+                      6
+                    </p>
+                  </div>
+                  <div class="col-4">
+                    <p class="fw-light my-0">Parking</p>
+                    <p class="fw-light my-0">
+                      <i class="fa-solid fa-car text-primary"></i>
+                      5
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="card-footer bg-white border-0 d-flex justify-content-between"
+              >
+                <span class="" style="font-size: 14px">
+                  <i class="fas fa-circle-user"></i>
+                  <a href="#" class="text-decoration-none text-dark fw-light"
+                    >Steven Jones</a
+                  >
+                </span>
+                <span class="" style="font-size: 14px">
+                  <i class="fas fa-calendar"></i>
+                  <a href="#" class="text-decoration-none text-dark fw-light"
+                    >March 16, 2021</a
+                  >
+                </span>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4">
+            <div class="card rounded-3 border-0">
+              <div
+                class="image-container position-relative overflow-hidden rounded-3"
+              >
+                <img
+                  src="./images/Shop-3-640x427.webp"
+                  class="latestPropertyCardImg card-img-top rounded-3"
+                  alt="..."
+                />
+                <a href="#" class="">
+                  <i
+                    class="opacity-0 center-button fa-solid fa-arrow-up fs-2 px-2 py-1 rounded-circle text-white bg-dark position-absolute start-50 top-50"
+                  ></i>
+                </a>
+                <div
+                  class="image-top p-3 position-absolute top-0 w-100 d-flex justify-content-between"
+                >
+                  <div class="left">
+                    <span class="badge bg-primary">Featured</span>
+                  </div>
+                  <div class="right">
+                    <span class="badge bg-orange">Shop</span>
+                    <span class="badge bg-light-green">For Sale</span>
+                  </div>
+                </div>
+
+                <div
+                  class="image-bottom position-absolute bottom-0 w-100 rounded-bottom-3 d-flex justify-content-between align-items-center"
+                >
+                  <div class="left">
+                    <p class="text-white my-0">120 m² Sqft</p>
+                    <p class="text-white my-0">$2548000</p>
+                  </div>
+                  <div class="right">
+                    <i
+                      class="fa-regular fa-heart text-primary bg-white p-1 rounded-1"
+                    ></i>
+                    <i
+                      class="fa-solid fa-arrow-right-arrow-left text-primary bg-white p-1 rounded-1"
+                    ></i>
+                  </div>
+                </div>
+              </div>
+              <div class="card-body mt-2 py-1">
+                <h5 class="card-title fw-bold">Shop For Rent in Los Angeles</h5>
+                <p class="fw-light mb-2" style="font-size: 14px">
+                  <i class="fa-regular fa-location-dot"></i>
+                  East Willow St
+                </p>
+                <div
+                  class="features row text-center py-2 mx-1 rounded-1"
+                  style="border: 2px dotted #d1c2e9"
+                >
+                  <div class="col-4">
+                    <p class="fw-light my-0">Bedrooms</p>
+                    <p class="fw-light my-0">
+                      <i class="fa-solid fa-bed text-primary"></i>
+                      NA
+                    </p>
+                  </div>
+                  <div class="col-4 border-start border-end">
+                    <p class="fw-light my-0">Bathrooms</p>
+                    <p class="fw-light my-0">
+                      <i class="fa-solid fa-bath text-primary"></i>
+                      1
+                    </p>
+                  </div>
+                  <div class="col-4">
+                    <p class="fw-light my-0">Parking</p>
+                    <p class="fw-light my-0">
+                      <i class="fa-solid fa-car text-primary"></i>
+                      2
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="card-footer bg-white border-0 d-flex justify-content-between"
+              >
+                <span class="" style="font-size: 14px">
+                  <i class="fas fa-circle-user"></i>
+                  <a href="#" class="text-decoration-none text-dark fw-light"
+                    >Steven Jones</a
+                  >
+                </span>
+                <span class="" style="font-size: 14px">
+                  <i class="fas fa-calendar"></i>
+                  <a href="#" class="text-decoration-none text-dark fw-light"
+                    >March 16, 2021</a
+                  >
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row mt-4" data-aos="slide-up">
+          <div class="col-12 text-center">
+            <a href="#" class="btn btn-primary text-white fw-bold py-3 px-5"
+              >Explore All Properties</a
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Process Section -->
+    <section class="process py-5 py-lg-6" id="process">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-10 offset-1 col-lg-6 offset-lg-3 text-center">
+            <h3
+              class="fs-4 mb-2 text-primary"
+              style="font-family: Delius; letter-spacing: 2px"
+            >
+              Our Process
+            </h3>
+            <h2 class="fs-2 mb-3 fw-bold" style="letter-spacing: 1px">
+              How It Works?
+            </h2>
+            <div
+              class="divider-container d-flex justify-content-center align-items-center mb-3"
+            >
+              <span class="divider-line" style="color: #3e2ad3">-------</span>
+              <i
+                class="fa-solid fa-square-caret-down text-primary fs-4 mx-2"
+              ></i>
+              <span class="divider-line" style="color: #3e2ad3">-------</span>
+            </div>
+            <p class="fw-light mb-5 text-dark">
+              Nibh sed pulvinar proin gravida hendrerit. Lectus magna fringilla
+              urna porttitor rhoncus dolor purus. Ut venenatis vulputate, Nunc
+              lobortis mattis aliquam faucibus.
+            </p>
+          </div>
+        </div>
+        <div class="row">
+          <div
+            class="col-md-4 d-flex justify-content-center align-items-center"
+          >
+            <div
+              class="card border-0 text-center position-relative"
+              style="width: 90%"
+            >
+              <img
+                src="./images/Repeat-Grid-2-1.webp"
+                alt=""
+                class="w-25 position-absolute z-0"
+              />
+              <div
+                class="bg-white rounded-3 card-body position-relative z-3 py-5"
+              >
+                <i
+                  aria-hidden="true"
+                  class="fas fa-home text-primary fs-1 bg-secondary p-4 rounded-circle mb-3"
+                ></i>
+                <h2 class="fs-4 mb-2">Signup & Subscribe</h2>
+                <p class="fw-light">
+                  Mattis enim ut tellus sagittis vitae Non nisi est sit amet
+                  facilisis magna.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div
+            class="col-md-4 d-flex justify-content-center align-items-center"
+          >
+            <div
+              class="card border-0 text-center position-relative"
+              style="width: 90%"
+            >
+              <img
+                src="./images/Repeat-Grid-2-1.webp"
+                alt=""
+                class="w-25 position-absolute z-0"
+              />
+              <div
+                class="bg-white rounded-3 card-body position-relative z-3 py-5"
+              >
+                <i
+                  aria-hidden="true"
+                  class="fas fa-home text-primary fs-1 bg-secondary p-4 rounded-circle mb-3"
+                ></i>
+                <h2 class="fs-4 mb-2">Signup & Subscribe</h2>
+                <p class="fw-light">
+                  Mattis enim ut tellus sagittis vitae Non nisi est sit amet
+                  facilisis magna.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div
+            class="col-md-4 d-flex justify-content-center align-items-center"
+          >
+            <div
+              class="card border-0 text-center position-relative"
+              style="width: 90%"
+            >
+              <img
+                src="./images/Repeat-Grid-2-1.webp"
+                alt=""
+                class="w-25 position-absolute z-0"
+              />
+              <div
+                class="bg-white rounded-3 card-body position-relative z-3 py-5"
+              >
+                <i
+                  aria-hidden="true"
+                  class="fas fa-home text-primary fs-1 bg-secondary p-4 rounded-circle mb-3"
+                ></i>
+                <h2 class="fs-4 mb-2">Signup & Subscribe</h2>
+                <p class="fw-light">
+                  Mattis enim ut tellus sagittis vitae Non nisi est sit amet
+                  facilisis magna.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Sell Property Section -->
+    <section
+      class="sell-property position-relative py-5 py-lg-6"
+      id="sell-property"
+    >
+      <div class="bg-building"></div>
+      <div class="container-fluid position-relative z-3">
+        <div class="row">
+          <div class="col-10 offset-1 col-lg-6 offset-lg-3 text-center">
+            <h2
+              class="fs-1 mb-3 fw-bold text-white"
+              style="letter-spacing: 1px"
+            >
+              Ready to sell your property
+            </h2>
+            <p class="text-white">
+              Fusce a risus eget urna faucibus ultricies ut at ligula. Nam mi
+              arcu, volutpat id tortor et, aliquet ultrices neque. Phasellus
+              volutpat arcu nibh, quis eleifend ligula mattis vitae.
+            </p>
+            <div
+              class="divider-container d-flex justify-content-center align-items-center mb-3"
+            >
+              <span class="divider-line" style="color: #ffffff">-------</span>
+              <i
+                class="fa-solid fa-square-caret-down text-primary fs-4 mx-2"
+              ></i>
+              <span class="divider-line" style="color: #ffffff">-------</span>
+            </div>
+            <a
+              href="#"
+              class="btn btn-primary text-white fw-bold px-4 py-3 mb-6"
+              data-aos="slide-up"
+              >List Your Property</a
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Stats Section -->
+    <section class="stats" id="stats">
+      <div class="px-4">
+        <div class="row g-3" data-aos="slide-up" data-aos-duration="1500">
+          <div class="col-6 col-md-3">
+            <div
+              class="text-center rounded-3 my-auto py-4 bg-white position-relative z-3 px-5"
+            >
+              <i
+                class="fa-regular fa-building mb-2 text-primary"
+                style="font-size: 4rem"
+              ></i>
+              <div
+                class="fs-4 mb-2 d-flex align-items-center justify-content-center"
+              >
+                <span class="counter fw-bold me-2" data-target="98700"
+                  >98700</span
+                >
+                <i class="fa-solid fa-plus fs-6 fw-bold"></i>
+              </div>
+              <h4 class="fs-5 text-dark fw-light">Properties Listed</h4>
+            </div>
+          </div>
+          <div class="col-6 col-md-3">
+            <div
+              class="text-center rounded-3 my-auto py-4 bg-white position-relative z-3 px-5"
+            >
+              <i
+                class="fa-regular fa-house mb-2 text-primary"
+                style="font-size: 4rem"
+              ></i>
+              <div
+                class="fs-4 mb-2 d-flex align-items-center justify-content-center"
+              >
+                <span class="counter fw-bold me-2" data-target="48751"
+                  >48751</span
+                >
+                <i class="fa-solid fa-plus fs-6 fw-bold"></i>
+              </div>
+              <h4 class="fs-5 text-dark fw-light">Properties Sold</h4>
+            </div>
+          </div>
+          <div class="col-6 col-md-3">
+            <div
+              class="text-center rounded-3 my-auto py-4 bg-white position-relative z-3 px-5"
+            >
+              <i
+                class="fa-regular fa-users mb-2 text-primary"
+                style="font-size: 4rem"
+              ></i>
+              <div
+                class="fs-4 mb-2 d-flex align-items-center justify-content-center"
+              >
+                <span class="counter fw-bold me-2" data-target="67845"
+                  >67845</span
+                >
+                <i class="fa-solid fa-plus fs-6 fw-bold"></i>
+              </div>
+              <h4 class="fs-5 text-dark fw-light">Satisfied Clients</h4>
+            </div>
+          </div>
+          <div class="col-6 col-md-3">
+            <div
+              class="text-center rounded-3 my-auto py-4 bg-white position-relative z-3 px-5"
+            >
+              <i
+                class="fa-regular fa-heart-circle-check mb-2 text-primary"
+                style="font-size: 4rem"
+              ></i>
+              <div
+                class="fs-4 mb-2 d-flex align-items-center justify-content-center"
+              >
+                <span class="counter fw-bold me-2" data-target="10">10</span>
+                <i class="fa-solid fa-plus fs-6 fw-bold"></i>
+              </div>
+              <h4 class="fs-5 text-dark fw-light">Realtor Awards</h4>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Testimonial Section -->
+    <section class="testimonials pb-5 py-lg-6" id="testimonials">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-10 offset-1 col-lg-6 offset-lg-3 text-center">
+            <h3
+              class="fs-4 mb-2 text-primary"
+              style="font-family: Delius; letter-spacing: 2px"
+            >
+              Testimonials
+            </h3>
+            <h2 class="fs-2 mb-3 fw-bold" style="letter-spacing: 1px">
+              Clients Feedback
+            </h2>
+            <div
+              class="divider-container d-flex justify-content-center align-items-center mb-3"
+            >
+              <span class="divider-line" style="color: #3e2ad3">-------</span>
+              <i
+                class="fa-solid fa-square-caret-down text-primary fs-4 mx-2"
+              ></i>
+              <span class="divider-line" style="color: #3e2ad3">-------</span>
+            </div>
+
+            <p class="fw-light mb-5 text-dark">
+              Viverra tellus in hac habitasse platea dictumst vestibulum rhoncus
+              est. Cum sociis natoque penatibus et, Neque gravida in fermentum
+              et adipiscing elit.
+            </p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-12">
+            <!-- Swiper -->
+            <div class="swiper feedbackSwiper px-4 pb-5">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <div class="card shadow border-0 p-2">
+                    <div class="card-body">
+                      <div class="card-top d-flex align-items-center mb-2">
+                        <img
+                          src="./images/our-team-1.webp"
+                          alt=""
+                          class="rounded-circle img-fluid"
+                        />
+                        <h4 class="name fs-5 ms-3 my-auto">
+                          John Doe <br />
+                          <span class="text-dark fs-6">Customer</span>
+                        </h4>
+                        <i
+                          class="fa-solid fa-quote-right ms-auto"
+                          style="font-size: 4rem; color: #bdb6f0"
+                        ></i>
+                      </div>
+                      <p class="card-text text-dark">
+                        Lorem ipsum dolor sit amet consectetur, adipisicing
+                        elit. Pariatur, repellat aperiam commodi quas quia,
+                        deserunt molestias porro fuga expedita temporibus
+                        dolores quos exercitationem aut alias, doloremque
+                        doloribus iure autem officiis libero ipsa
+                        necessitatibus! Autem, labore facere iure sapiente modi
+                        ipsam.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="card shadow border-0 p-2">
+                    <div class="card-body">
+                      <div class="card-top d-flex align-items-center mb-2">
+                        <img
+                          src="./images/our-team-2.webp"
+                          alt=""
+                          class="rounded-circle img-fluid"
+                        />
+                        <h4 class="name fs-5 ms-3 my-auto">
+                          John Doe <br />
+                          <span class="text-dark fs-6">Customer</span>
+                        </h4>
+                        <i
+                          class="fa-solid fa-quote-right ms-auto"
+                          style="font-size: 4rem; color: #bdb6f0"
+                        ></i>
+                      </div>
+                      <p class="card-text text-dark">
+                        Lorem ipsum dolor sit amet consectetur, adipisicing
+                        elit. Pariatur, repellat aperiam commodi quas quia,
+                        deserunt molestias porro fuga expedita temporibus
+                        dolores quos exercitationem aut alias, doloremque
+                        doloribus iure autem officiis libero ipsa
+                        necessitatibus! Autem, labore facere iure sapiente modi
+                        ipsam.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="card shadow border-0 p-2">
+                    <div class="card-body">
+                      <div class="card-top d-flex align-items-center mb-2">
+                        <img
+                          src="./images/our-team-3.webp"
+                          alt=""
+                          class="rounded-circle img-fluid"
+                        />
+                        <h4 class="name fs-5 ms-3 my-auto">
+                          John Doe <br />
+                          <span class="text-dark fs-6">Customer</span>
+                        </h4>
+                        <i
+                          class="fa-solid fa-quote-right ms-auto"
+                          style="font-size: 4rem; color: #bdb6f0"
+                        ></i>
+                      </div>
+                      <p class="card-text text-dark">
+                        Lorem ipsum dolor sit amet consectetur, adipisicing
+                        elit. Pariatur, repellat aperiam commodi quas quia,
+                        deserunt molestias porro fuga expedita temporibus
+                        dolores quos exercitationem aut alias, doloremque
+                        doloribus iure autem officiis libero ipsa
+                        necessitatibus! Autem, labore facere iure sapiente modi
+                        ipsam.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="card shadow border-0 p-2">
+                    <div class="card-body">
+                      <div class="card-top d-flex align-items-center mb-2">
+                        <img
+                          src="./images/our-team-4.webp"
+                          alt=""
+                          class="rounded-circle img-fluid"
+                        />
+                        <h4 class="name fs-5 ms-3 my-auto">
+                          John Doe <br />
+                          <span class="text-dark fs-6">Customer</span>
+                        </h4>
+                        <i
+                          class="fa-solid fa-quote-right ms-auto"
+                          style="font-size: 4rem; color: #bdb6f0"
+                        ></i>
+                      </div>
+                      <p class="card-text text-dark">
+                        Lorem ipsum dolor sit amet consectetur, adipisicing
+                        elit. Pariatur, repellat aperiam commodi quas quia,
+                        deserunt molestias porro fuga expedita temporibus
+                        dolores quos exercitationem aut alias, doloremque
+                        doloribus iure autem officiis libero ipsa
+                        necessitatibus! Autem, labore facere iure sapiente modi
+                        ipsam.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-pagination"></div>
+              <div class="swiper-button-next fw-bold text-primary"></div>
+              <div class="swiper-button-prev fw-bold text-primary"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- News and Blog Section -->
+    <section class="news py-5 py-lg-6" id="news">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-10 offset-1 col-lg-6 offset-lg-3 text-center">
+            <h3
+              class="fs-4 mb-2 text-primary"
+              style="font-family: Delius; letter-spacing: 2px"
+            >
+              News & Blog
+            </h3>
+            <h2 class="fs-2 mb-3 fw-bold" style="letter-spacing: 1px">
+              Latest New Feeds
+            </h2>
+            <div
+              class="divider-container d-flex justify-content-center align-items-center mb-3"
+            >
+              <span class="divider-line" style="color: #3e2ad3">-------</span>
+              <i
+                class="fa-solid fa-square-caret-down text-primary fs-4 mx-2"
+              ></i>
+              <span class="divider-line" style="color: #3e2ad3">-------</span>
+            </div>
+            <p class="fw-light mb-5 text-dark">
+              Nibh sed pulvinar proin gravida hendrerit. Lectus magna fringilla
+              urna porttitor rhoncus dolor purus. Ut venenatis tellus in metus
+              vulputate, Nunc aliquam faucibus.
+            </p>
+          </div>
+        </div>
+        <div class="row mb-4" data-aos="slide-up" data-aos-duration="1500">
+          <div class="col-md-6 col-lg-4">
+            <div class="card rounded-3 border-0">
+              <div
+                class="image-container position-relative overflow-hidden rounded-3"
+              >
+                <img
+                  src="./images/Family-House-3.webp"
+                  class="latestPropertyCardImg card-img-top rounded-3"
+                  alt="..."
+                />
+                <a href="#" class="">
+                  <i
+                    class="opacity-0 center-button fa-solid fa-arrow-up fs-2 px-2 py-1 rounded-circle text-white bg-dark position-absolute start-50 top-50"
+                  ></i>
+                </a>
+                <div class="image-top p-3 position-absolute top-0 w-100 d-flex">
+                  <a
+                    href="#"
+                    class="badge rounded-1 text-decoration-none"
+                    style="background-color: #3e2ad2"
+                    >Buy Home</a
+                  >
+                </div>
+
+                <div
+                  class="image-bottom position-absolute bottom-0 w-100 rounded-bottom-3 d-flex align-items-center"
+                >
+                  <i
+                    class="fas fa-user text-white bg-gray p-1 rounded-circle me-1"
+                  ></i>
+                  <a
+                    href="#"
+                    class="text-white text-decoration-none"
+                    style="font-size: 13px"
+                    >WPLT</a
+                  >
+                </div>
+              </div>
+              <div class="card-body mt-2 py-2">
+                <a href="#" class="text-decoration-none">
+                  <h5 class="card-title fw-bold text-black">
+                    How Much Does It Cost to Furnish an Apartment?
+                  </h5>
+                </a>
+                <p class="fw-light text-dark mb-2" style="font-size: 14px">
+                  Pellentesque habitant morbi tristique senectus et netus et
+                  malesuada fames ac turpis egestas. Cras maximus fermentum
+                  lacus, sit amet semper ...
+                </p>
+              </div>
+              <div
+                class="card-footer bg-white d-flex justify-content-between py-3"
+              >
+                <span class="" style="font-size: 14px">
+                  <i class="fas fa-calendar text-primary"></i>
+                  <a href="#" class="text-decoration-none text-dark fw-light"
+                    >March 31, 2021</a
+                  >
+                </span>
+                <span class="text-primary" style="font-size: 14px">
+                  <a href="#" class="text-decoration-none">Read More</a>
+                  <i class="fas fa-arrow-right"></i>
+                </span>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4">
+            <div class="card rounded-3 border-0">
+              <div
+                class="image-container position-relative overflow-hidden rounded-3"
+              >
+                <img
+                  src="./images/apartment-4.webp"
+                  class="latestPropertyCardImg card-img-top rounded-3"
+                  alt="..."
+                />
+                <a href="#" class="">
+                  <i
+                    class="opacity-0 center-button fa-solid fa-arrow-up fs-2 px-2 py-1 rounded-circle text-white bg-dark position-absolute start-50 top-50"
+                  ></i>
+                </a>
+                <div class="image-top p-3 position-absolute top-0 w-100 d-flex">
+                  <a
+                    href="#"
+                    class="badge rounded-1 text-decoration-none"
+                    style="background-color: #3e2ad2"
+                    >Real Estate</a
+                  >
+                </div>
+
+                <div
+                  class="image-bottom position-absolute bottom-0 w-100 rounded-bottom-3 d-flex align-items-center"
+                >
+                  <i
+                    class="fas fa-user text-white bg-gray p-1 rounded-circle me-1"
+                  ></i>
+                  <a
+                    href="#"
+                    class="text-white text-decoration-none"
+                    style="font-size: 13px"
+                    >WPLT</a
+                  >
+                </div>
+              </div>
+              <div class="card-body mt-2 py-2">
+                <a href="#" class="text-decoration-none">
+                  <h5 class="card-title fw-bold text-black">
+                    6 Tips for a Renter-Friendly Apartment Makeover
+                  </h5>
+                </a>
+                <p class="fw-light text-dark mb-2" style="font-size: 14px">
+                  Duis sit amet consequat ligula, ac pellentesque elit. Aliquam
+                  erat volutpat. Integer consectetur blandit neque at pharetra.
+                </p>
+              </div>
+              <div
+                class="card-footer bg-white d-flex justify-content-between py-3"
+              >
+                <span class="" style="font-size: 14px">
+                  <i class="fas fa-calendar text-primary"></i>
+                  <a href="#" class="text-decoration-none text-dark fw-light"
+                    >March 31, 2021</a
+                  >
+                </span>
+                <span class="text-primary" style="font-size: 14px">
+                  <a href="#" class="text-decoration-none">Read More</a>
+                  <i class="fas fa-arrow-right"></i>
+                </span>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4">
+            <div class="card rounded-3 border-0">
+              <div
+                class="image-container position-relative overflow-hidden rounded-3"
+              >
+                <img
+                  src="./images/Family-House-2.webp"
+                  class="latestPropertyCardImg card-img-top rounded-3"
+                  alt="..."
+                />
+                <a href="#" class="">
+                  <i
+                    class="opacity-0 center-button fa-solid fa-arrow-up fs-2 px-2 py-1 rounded-circle text-white bg-dark position-absolute start-50 top-50"
+                  ></i>
+                </a>
+                <div class="image-top p-3 position-absolute top-0 w-100 d-flex">
+                  <a
+                    href="#"
+                    class="badge rounded-1 text-decoration-none"
+                    style="background-color: #3e2ad2"
+                    >Buy Home</a
+                  >
+                </div>
+
+                <div
+                  class="image-bottom position-absolute bottom-0 w-100 rounded-bottom-3 d-flex align-items-center"
+                >
+                  <i
+                    class="fas fa-user text-white bg-gray p-1 rounded-circle me-1"
+                  ></i>
+                  <a
+                    href="#"
+                    class="text-white text-decoration-none"
+                    style="font-size: 13px"
+                    >WPLT</a
+                  >
+                </div>
+              </div>
+              <div class="card-body mt-2 py-2">
+                <a href="#" class="text-decoration-none">
+                  <h5 class="card-title fw-bold text-black">
+                    The Ultimate Guide To Buy, Sale and Rent your Property
+                  </h5>
+                </a>
+                <p class="fw-light text-dark mb-2" style="font-size: 14px">
+                  Nulla vestibulum, turpis sed convallis iaculis, lorem mi
+                  suscipit dui, vel rutrum sem eros non felis. Interdum et
+                  malesuada fames ...
+                </p>
+              </div>
+              <div
+                class="card-footer bg-white d-flex justify-content-between py-3"
+              >
+                <span class="" style="font-size: 14px">
+                  <i class="fas fa-calendar text-primary"></i>
+                  <a href="#" class="text-decoration-none text-dark fw-light"
+                    >March 31, 2021</a
+                  >
+                </span>
+                <span class="text-primary" style="font-size: 14px">
+                  <a href="#" class="text-decoration-none">Read More</a>
+                  <i class="fas fa-arrow-right"></i>
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row" data-aos="slide-up" data-aos-duration="">
+          <div class="col-12 text-center">
+            <a href="#" class="btn btn-primary py-3 px-4 text-white fw-bold"
+              >View All Blogs</a
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer  -->
+    <footer class="footer" id="footer">
+      <div class="container-fluid py-5 py-lg-7 px-3 text-white">
+        <div class="row">
+          <div class="col-md-4 col-lg-3">
+            <div class="contact-container">
+              <ul class="list-unstyled">
+                <li class="mb-3">
+                  <a href="/">
+                    <img src="./images/Luxus-logo.webp" alt="" class="" />
+                  </a>
+                </li>
+                <li class="mb-2">
+                  <i class="fa-solid fa-phone text-primary me-2"></i>
+                  <span>+123 456 7890</span>
+                </li>
+                <li class="mb-2">
+                  <i class="fa-solid fa-tty text-primary me-2"></i>
+                  <span>+123 456 7890</span>
+                </li>
+                <li class="">
+                  <i class="fa-regular fa-envelope text-primary me-2"></i>
+                  <span>info@yourdomain.com</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-md-4 col-6 col-lg-3">
+            <div class="contact-container">
+              <ul class="list-unstyled">
+                <li>
+                  <h5 class="fw-bold">Genreral Info</h5>
+                </li>
+                <li class="mb-2">
+                  <a href="#" class="text-decoration-none">
+                    <i class="fa-solid fa-arrow-right text-primary me-2"></i>
+                    <span class="text-white">About Us</span>
+                  </a>
+                </li>
+                <li class="mb-2">
+                  <a href="#" class="text-decoration-none">
+                    <i class="fa-solid fa-arrow-right text-primary me-2"></i>
+                    <span class="text-white">Our Properties</span>
+                  </a>
+                </li>
+                <li class="mb-2">
+                  <a href="#" class="text-decoration-none">
+                    <i class="fa-solid fa-arrow-right text-primary me-2"></i>
+                    <span class="text-white">Our Agencies</span>
+                  </a>
+                </li>
+                <li class="">
+                  <a href="#" class="text-decoration-none">
+                    <i class="fa-solid fa-arrow-right text-primary me-2"></i>
+                    <span class="text-white">Our Agents</span>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-md-4 col-6 col-lg-2">
+            <div class="contact-container">
+              <ul class="list-unstyled">
+                <li>
+                  <h5 class="fw-bold">Quick Links</h5>
+                </li>
+                <li class="mb-2">
+                  <a href="#" class="text-decoration-none">
+                    <i class="fa-solid fa-arrow-right text-primary me-2"></i>
+                    <span class="text-white">Blog / News</span>
+                  </a>
+                </li>
+                <li class="mb-2">
+                  <a href="#" class="text-decoration-none">
+                    <i class="fa-solid fa-arrow-right text-primary me-2"></i>
+                    <span class="text-white">Elements</span>
+                  </a>
+                </li>
+                <li class="mb-2">
+                  <a href="#" class="text-decoration-none">
+                    <i class="fa-solid fa-arrow-right text-primary me-2"></i>
+                    <span class="text-white">Pricing Tables</span>
+                  </a>
+                </li>
+                <li class="">
+                  <a href="#" class="text-decoration-none">
+                    <i class="fa-solid fa-arrow-right text-primary me-2"></i>
+                    <span class="text-white">Contact Us</span>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-lg-4 my-5 my-lg-0">
+            <div class="subscribe-container">
+              <h5 class="fw-bold">Subscribe</h5>
+              <p>
+                To get a free & amazing offers and other cool things stay with
+                us. Please subscribe us.
+              </p>
+              <div class="input-group bg-white rounded-1">
+                <input
+                  type="text"
+                  class="form-control rounded-1 py-2 border-0"
+                  placeholder="Your email address "
+                  aria-label=""
+                  aria-describedby="button-addon1"
+                />
+                <button
+                  class="btn btn-primary m-1 text-white"
+                  type="button"
+                  id="button-addon1"
+                >
+                  Sign Up
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="footer-bottom text-white d-flex align-items-center justify-content-between py-3"
+      >
+        <div class="copyright">
+          <h5 class="fs-6 mb-0">&copy 2024 Luxux. All Rights Reserved</h5>
+        </div>
+        <ul class="socials list-unstyled d-flex align-items-center mb-0">
+          <li class="me-2">
+            <a href="#" class="rounded-1">
+              <i class="fas fa-brands fa-facebook-f text-white"></i>
+            </a>
+          </li>
+          <li class="me-2">
+            <a href="#" class="rounded-1">
+              <i class="fas fa-brands fa-instagram text-white"></i>
+            </a>
+          </li>
+          <li class="me-2">
+            <a href="#" class="rounded-1">
+              <i class="fas fa-brands fa-twitter text-white"></i>
+            </a>
+          </li>
+          <li class="me-2">
+            <a href="#" class="rounded-1">
+              <i class="fas fa-brands fa-pinterest text-white"></i>
+            </a>
+          </li>
+          <li class="me-2">
+            <a href="#" class="rounded-1">
+              <i class="fas fa-brands fa-youtube text-white"></i>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </footer>
+
+    <!-- Third Party JS// -->
+    <script src="js/replaceme.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+
+    <!-- Custom Js -->
+    <script src="js/script.js"></script>
+
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+      var swiper = new Swiper(".feedbackSwiper", {
+        slidesPerView: 1,
+        spaceBetween: 30,
+        loop: true,
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+        keyboard: true,
+        breakpoints: {
+          768: {
+            slidesPerView: 2,
+          },
+          992: {
+            slidesPerView: 3,
+          },
+        },
+      });
+
+      var swiper = new Swiper(".featurePropertySwiper", {
+        slidesPerView: 1,
+        spaceBetween: 20,
+        loop: true,
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+        keyboard: true,
+        breakpoints: {
+          768: {
+            slidesPerView: 2,
+          },
+          992: {
+            slidesPerView: 3,
+          },
+        },
+      });
+    </script>
+
+    <!-- Aos -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+
+      // You can also pass an optional settings object
+      // below listed default settings
+      AOS.init({
+        // Global settings:
+        disable: false, // accepts following values: 'phone', 'tablet', 'mobile', boolean, expression or function
+        startEvent: "DOMContentLoaded", // name of the event dispatched on the document, that AOS should initialize on
+        initClassName: "aos-init", // class applied after initialization
+        animatedClassName: "aos-animate", // class applied on animation
+        useClassNames: false, // if true, will add content of `data-aos` as classes on scroll
+        disableMutationObserver: false, // disables automatic mutations' detections (advanced)
+        debounceDelay: 50, // the delay on debounce used while resizing window (advanced)
+        throttleDelay: 99, // the delay on throttle used while scrolling the page (advanced)
+
+        // Settings that can be overridden on per-element basis, by `data-aos-*` attributes:
+        offset: 50, // offset (in px) from the original trigger point
+        delay: 0, // values from 0 to 3000, with step 50ms
+        duration: 2000, // values from 0 to 3000, with step 50ms
+        easing: "ease", // default easing for AOS animations
+        once: true, // whether animation should happen only once - while scrolling down
+        mirror: false, // whether elements should animate out while scrolling past them
+        anchorPlacement: "top-bottom", // defines which position of the element regarding to window should trigger the animation
+      });
+    </script>
+  </body>
+</html>

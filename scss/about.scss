@@ -1,0 +1,134 @@
+
+// About Hero Section
+.about-hero-section {
+  background: url(../images/about-hero-bg.webp) center center no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+// Purpose Section//
+.purpose .row{
+  position: relative;
+  top: -130px;
+}
+.purpose .card{
+  box-shadow: -10px 10px 0 var(--bs-secondary), 0px -1px 10px var(--bs-secondary);
+  // background: url(../images/Repeat-Grid-2-1.webp) center center no-repeat;
+  // background-size: ;
+}
+.purpose .card-body{
+  transition: all .2s ease-in-out;
+}
+.purpose .card-body:hover{
+  background-color: var(--bs-primary) !important;
+  color: white;
+}
+.purpose .card-body:hover i{
+  background-color: #fff !important;
+}
+
+// About Stats Section
+.about-stats{
+  background: url(../images/about-bg1.webp) center center no-repeat;
+  background-size: cover;
+  // background-attachment: fixed;
+}
+.about-stats .stats-container{
+  background-color: transparent;
+    background-image: linear-gradient(200deg, #3E2AD3 0%, #00BBFF 100%);
+}
+
+.about-stats .video-play-button{
+  top: 7rem;
+  left: 7rem;
+}
+
+
+// Our Teams Section
+.our-teams .socials{
+  background-color: rgba(0, 7, 45, 0.6) ;
+  position: absolute;
+  width: 100%;
+  top: 100%;
+  transition: top .2s ;
+}
+.our-teams .teams-container:hover .socials{
+  top: 84%;
+}
+.our-teams .socials i:hover{
+  background-color: var(--bs-primary) !important;
+  color: white;
+  transition: all .2s ease-in;
+}
+
+//Feedback Section
+.about-feedback .card img{
+  width: 4rem;
+}
+
+.about-feedback .swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.about-feedback .swiper-slide {
+  // text-align: center;
+  // font-size: 18px;
+  // background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+// .about-feedback .swiper-slide .card {
+//   display: block;
+//   width: 100%;
+//   height: 100%;
+//   object-fit: cover;
+// }
+.about-feedback .swiper-button-next::after{
+  font-size: 25px;
+  
+
+}
+.about-feedback .swiper-button-prev::after{
+  font-size: 25px;
+}
+
+// Our Partners
+
+// Swiper Slider
+.our-partners .swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.our-partners .swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.our-partners .swiper-slide img {
+  // display: block;
+  width: 12rem;
+  height: 100%;
+  object-fit: cover;
+}
+.our-partners .swiper-button-next::after{
+  font-size: 25px;
+
+}
+.our-partners .swiper-button-prev::after{
+  font-size: 25px;
+}
+
+@media (max-width: 768px) {
+  .about-stats .video-play-button{
+    top: 100%;
+    left: 50%;
+  }
+}
