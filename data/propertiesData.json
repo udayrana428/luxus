@@ -335,7 +335,7 @@
     "parking": 1,
     "agent": "dominic brisebois",
     "date": "March 16, 2021",
-    "featured": true,
+    "featured": false,
     "type": "Office Space",
     "status": "For rent"
   },
@@ -352,7 +352,7 @@
     "parking": 5,
     "agent": "Steven Jones",
     "date": "March 16, 2021",
-    "featured": true,
+    "featured": false,
     "type": "Modern Villa",
     "status": "For Sale"
   },
@@ -369,7 +369,7 @@
     "parking": 5,
     "agent": "Steven Jones",
     "date": "March 16, 2021",
-    "featured": true,
+    "featured": false,
     "type": "Modern Villa",
     "status": "For Sale"
   },
@@ -386,7 +386,7 @@
     "parking": 5,
     "agent": "Steven Jones",
     "date": "March 16, 2021",
-    "featured": true,
+    "featured": false,
     "type": "Modern Villa",
     "status": "For Sale"
   },
@@ -403,7 +403,7 @@
     "parking": 5,
     "agent": "Steven Jones",
     "date": "March 16, 2021",
-    "featured": true,
+    "featured": false,
     "type": "Modern Villa",
     "status": "For Sale"
   },
@@ -420,7 +420,7 @@
     "parking": 5,
     "agent": "Steven Jones",
     "date": "March 16, 2021",
-    "featured": true,
+    "featured": false,
     "type": "Modern Villa",
     "status": "For Sale"
   },
@@ -437,7 +437,7 @@
     "parking": 5,
     "agent": "Steven Jones",
     "date": "March 16, 2021",
-    "featured": true,
+    "featured": false,
     "type": "Modern Villa",
     "status": "For Sale"
   },
@@ -454,7 +454,7 @@
     "parking": 5,
     "agent": "Steven Jones",
     "date": "March 16, 2021",
-    "featured": true,
+    "featured": false,
     "type": "Modern Villa",
     "status": "For Sale"
   },
@@ -471,7 +471,7 @@
     "parking": 5,
     "agent": "Steven Jones",
     "date": "March 16, 2021",
-    "featured": true,
+    "featured": false,
     "type": "Modern Villa",
     "status": "For Sale"
   }
