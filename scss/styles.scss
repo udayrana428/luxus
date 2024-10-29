@@ -146,7 +146,7 @@ body::-webkit-scrollbar{
 
 // Navbar
 .navbar {
-  // transition: all 5s ease-in;
+  transition: all 5s ease-in;
 }
 
 .navbar-sticky {
@@ -154,7 +154,7 @@ body::-webkit-scrollbar{
   position: fixed !important;
   top: 0;
   z-index: 100;
-  transition: all 0.3s ease-in;
+  // transition: all 0.3s ease-in;
 }
 
 .navbar a:hover,
@@ -198,14 +198,14 @@ body::-webkit-scrollbar{
   top: 0;
   background-color: #000e50;
   opacity: 0;
-  display: none; 
-  transition: opacity .3s ease-in-out; 
+  visibility: hidden;
+  transition: all .3s ease-in-out; 
 }
 
 /* Visible state */
 .show-side-navbar {
   opacity: 1 !important;
-  display: block !important;
+  visibility: visible !important;
 }
 
 .side-navbar,
@@ -292,6 +292,31 @@ body::-webkit-scrollbar{
   overflow-y: scroll;
   padding: 2rem;
   height: 80vh;
+}
+#mouseArrow1{
+  animation: mouseArrow1 1.5s ease-in-out infinite;
+}
+#mouseArrow2{
+  animation: mouseArrow2 1.5s ease-in-out .2s infinite ;
+}
+
+@keyframes mouseArrow1 {
+  0%{
+    opacity: 0;
+  }50%{
+    opacity: 1;
+  }100%{
+    opacity: 0;
+  }
+}
+@keyframes mouseArrow2 {
+  0%{
+    opacity: 0;
+  }50%{
+    opacity: 1;
+  }100%{
+    opacity: 0;
+  }
 }
 
 // Login Modal
